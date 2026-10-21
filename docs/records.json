@@ -1,0 +1,212 @@
+[
+  {
+    "path": "simulation/results.json.gz",
+    "unpacked": "simulation/results.json",
+    "sha256": "6e5f440e13367bf8ad8c9851fbbaa8d9c9b5fa523143ec853341e7879ac280c1",
+    "bytes": 2615517
+  },
+  {
+    "path": "simulation/results-first-pass.json.gz",
+    "unpacked": "simulation/results-first-pass.json",
+    "sha256": "17076a8a3f1a497d7a2c83650191a0ad8bcb2e290d337578336f1fd44d55ab14",
+    "bytes": 764367
+  },
+  {
+    "path": "simulation/results-domain-first-pass.json.gz",
+    "unpacked": "simulation/results-domain-first-pass.json",
+    "sha256": "4276a0b863be41e0492aba9ec3dbbb75fa0a631119eb6f67e22b3d26fb6a2c13",
+    "bytes": 1552133
+  },
+  {
+    "path": "simulation/results-envelope-validation.json.gz",
+    "unpacked": "simulation/results-envelope-validation.json",
+    "sha256": "a6e1efe0dd93409c8f2599bac83a9d29a27cab9c382f85d7b07e0e1e04855ec2",
+    "bytes": 1029537
+  },
+  {
+    "path": "simulation/results-contact-validation.json.gz",
+    "unpacked": "simulation/results-contact-validation.json",
+    "sha256": "69e9238859eb02a174c671f4fddbf8a161bd5e4691b348f073620d70fd236929",
+    "bytes": 1559783
+  },
+  {
+    "path": "simulation_v2/results.json.gz",
+    "unpacked": "simulation_v2/results.json",
+    "sha256": "0e842c7de451718be13be703be246deb6fc0033b2ac159f00ea26f3576e03213",
+    "bytes": 16631996
+  },
+  {
+    "path": "simulation_v2/training-episodes.jsonl.gz",
+    "unpacked": "simulation_v2/training-episodes.jsonl",
+    "sha256": "81f35d51c384ae883c865f5d5e1fc1341fd5e43b3feb0f22f976740b7e859aac",
+    "bytes": 27703000
+  },
+  {
+    "path": "simulation_v2/candidate-records.jsonl.gz",
+    "unpacked": "simulation_v2/candidate-records.jsonl",
+    "sha256": "546e4bdbb90ecdfd3f9946a7097f1b04133a6283de7d40bd6d377537b75c5922",
+    "bytes": 23818645
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-005.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-005.json",
+    "sha256": "2b1051f0eb8400443eb75a916dfe333085579a11d2303d82420badcce93eaab9",
+    "bytes": 2077412
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-010.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-010.json",
+    "sha256": "99cd43eefe96d87428e0e753a1024b8c04852c5cc92959ea61cabc67c99aa099",
+    "bytes": 1973883
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-015.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-015.json",
+    "sha256": "6c7090fec41948ff2228dbabb4b020827e41b21595f1d10b61b061bae2240242",
+    "bytes": 2114598
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-020.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-020.json",
+    "sha256": "fcacc9bc3db8e8ea40d93ba216295ee4f111599808a8a957aa676f0e425148be",
+    "bytes": 2114598
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-025.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-025.json",
+    "sha256": "10e035c8dffcee60ff4f9feb19208ce71e863b2e5ecb6ac7c81197f9042b7ac5",
+    "bytes": 2024852
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-030.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-030.json",
+    "sha256": "0f164d94934fa4815230524241a13e9a82b722e8d7f0b62ed905a4e5193d403e",
+    "bytes": 2024852
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-035.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-035.json",
+    "sha256": "7c3db81b4ff1295c0f301838028727223a1aa314c902a8c29a18fa5008467c5c",
+    "bytes": 1992024
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-040.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-040.json",
+    "sha256": "3177637f1100cedff741937c406ee5ce2bfc5f98a3117c1b377508ab2dc46fca",
+    "bytes": 2112952
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-045.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-045.json",
+    "sha256": "b3f47f06e22824a7cf56862f85490bba1070ddc2153d0cca1228cf3127d1acf3",
+    "bytes": 2112952
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-050.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-050.json",
+    "sha256": "9353b606966c83bccebbc1431523f565e965afcdbea5f5d40ec136bb4d85b238",
+    "bytes": 2076799
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-055.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-055.json",
+    "sha256": "4571ae682cdac7f7e22219de9b60372e8b722ffaa290007a843606a4f6db62f6",
+    "bytes": 2076799
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-060.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-060.json",
+    "sha256": "e57428d6432c215a54580bc5995e1e8b41acc693729c7e7b4deaee1fdcb79786",
+    "bytes": 2076799
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-065.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-065.json",
+    "sha256": "548c22b415aa9425f6af1d9acf6c258b3d0b4d4d3618b03bd7806d555ddbf716",
+    "bytes": 1989509
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-070.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-070.json",
+    "sha256": "3c6437f8c1b2b376c45e9283408432511f71ce77fd6b764700f12ae1ed88d70f",
+    "bytes": 1989509
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-075.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-075.json",
+    "sha256": "4b815904a7ffcfe9475f4d5971cc85e64d36f15ff4e59066117a40daacf186b7",
+    "bytes": 1976326
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-080.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-080.json",
+    "sha256": "0bcc9acbb0ed9b6c9307caef6ca4f3fcd40cf1628fa8b6e4b27b4f0efe245955",
+    "bytes": 1976326
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-085.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-085.json",
+    "sha256": "a1271b112f698200c0bc0fe712833c468f2ac8f50cd40a2e17aa71ca155e08eb",
+    "bytes": 1976326
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-090.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-090.json",
+    "sha256": "4af0e757e78fb4d1ce62d46108f6494d467516edd3922c3aa28663bd6586c537",
+    "bytes": 1976326
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-095.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-095.json",
+    "sha256": "1b65701e806f2e0d30ba64a1b7eda4c8ddc1ef57d9921ec0bded3d3d4cd381c7",
+    "bytes": 1976326
+  },
+  {
+    "path": "simulation_v2/checkpoints/generation-100.json.gz",
+    "unpacked": "simulation_v2/checkpoints/generation-100.json",
+    "sha256": "568119c425b82c91c78db7ca0e34067473d83a8012478fc45a6676aa8e6e6387",
+    "bytes": 1976327
+  },
+  {
+    "path": "simulation_v2/archive/attitude-only-blowdown-r4/results.json.gz",
+    "unpacked": "simulation_v2/archive/attitude-only-blowdown-r4/results.json",
+    "sha256": "2217cab0d1aa73070a6560ce0b2a3c82b1eebd2a127e958bf19cb394b4dcfce2",
+    "bytes": 11707282
+  },
+  {
+    "path": "simulation_v2/archive/launch-coupled-r5/results.json.gz",
+    "unpacked": "simulation_v2/archive/launch-coupled-r5/results.json",
+    "sha256": "2258731f6b477d50224746f0046a9fddcf2feb49e5be5bd8453efb54dffd236c",
+    "bytes": 9597927
+  },
+  {
+    "path": "simulation_v2/archive/energy-coupled-r6-short-run/results.json.gz",
+    "unpacked": "simulation_v2/archive/energy-coupled-r6-short-run/results.json",
+    "sha256": "3b1483eaea2a2e0b43ef482819beb4ed0c7d436378755582322accb1ade22b63",
+    "bytes": 9018251
+  },
+  {
+    "path": "simulation_v3/evaluation-ledger.jsonl.gz",
+    "unpacked": "simulation_v3/evaluation-ledger.jsonl",
+    "sha256": "f8c0fd034b57df69ee1c0dd1799eeaeb83e8d5723e2a8a9cdb29c92af8d7d1f0",
+    "bytes": 993881
+  },
+  {
+    "path": "simulation_v4/evaluation-ledger.jsonl.gz",
+    "unpacked": "simulation_v4/evaluation-ledger.jsonl",
+    "sha256": "cfbfe47c38a7d7e2f5ae4076eb724d5d5406a9024fb8141d4f8209635e8ba9ae",
+    "bytes": 420601
+  },
+  {
+    "path": "simulation_v4/campaign/training-ledger.jsonl.gz",
+    "unpacked": "simulation_v4/campaign/training-ledger.jsonl",
+    "sha256": "e1bf6f33baf86f602de6f059106b5903ddb5897cc4123fe86a222b93e5033ae6",
+    "bytes": 10703931
+  },
+  {
+    "path": "simulation_v3/browser-fixtures.json.gz",
+    "unpacked": "simulation_v3/browser-fixtures.json",
+    "sha256": "38971413a25463d38e842d1c33eaddbfcd1dd89bb4ed44c28809d7786fdda32c",
+    "bytes": 11975524
+  }
+]

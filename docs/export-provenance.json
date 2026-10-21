@@ -1,0 +1,2042 @@
+{
+  "date": "2026-10-22",
+  "frontendSnapshot": "8446a5ce47998cbb475d8291d4f3af62a375f740",
+  "scope": "Selected control source, complete final training ledgers, validation metrics and representative trajectories. Historical source fingerprints are retained; export modifications are recorded separately.",
+  "files": [
+    {
+      "path": "simulation/core.py",
+      "source": "simulation/core.py",
+      "sourceSha256": "0c928f65c8d7b33fe3349191d90433e6ddd7d75f295828f3026bf19306dd9267",
+      "sourceBytes": 22936,
+      "changes": "",
+      "releaseSha256": "0c928f65c8d7b33fe3349191d90433e6ddd7d75f295828f3026bf19306dd9267",
+      "releaseBytes": 22936
+    },
+    {
+      "path": "simulation/train.py",
+      "source": "simulation/train.py",
+      "sourceSha256": "8abaabe743cfa63439f3cdf9874f668a9a2401d89416e59de1189070adfc83ca",
+      "sourceBytes": 12325,
+      "changes": "",
+      "releaseSha256": "8abaabe743cfa63439f3cdf9874f668a9a2401d89416e59de1189070adfc83ca",
+      "releaseBytes": 12325
+    },
+    {
+      "path": "simulation/test_core.py",
+      "source": "simulation/test_core.py",
+      "sourceSha256": "32a365689a401e26fce848332e1ce799e93c13d7aeb2ec8a2d29650a16626d54",
+      "sourceBytes": 4400,
+      "changes": "",
+      "releaseSha256": "32a365689a401e26fce848332e1ce799e93c13d7aeb2ec8a2d29650a16626d54",
+      "releaseBytes": 4400
+    },
+    {
+      "path": "simulation/audit_results.py",
+      "source": "simulation/audit_results.py",
+      "sourceSha256": "051a38b21c9ae4d16b82d8c21aaf0629ad868c5029b6495579fcdff689b7309e",
+      "sourceBytes": 3231,
+      "changes": "",
+      "releaseSha256": "051a38b21c9ae4d16b82d8c21aaf0629ad868c5029b6495579fcdff689b7309e",
+      "releaseBytes": 3231
+    },
+    {
+      "path": "simulation/config.json",
+      "source": "simulation/config.json",
+      "sourceSha256": "0c6157a676ddd7684e42624ce4d80234dd2cb6df2692c831259dadf07210e8fa",
+      "sourceBytes": 11143,
+      "changes": "",
+      "releaseSha256": "0c6157a676ddd7684e42624ce4d80234dd2cb6df2692c831259dadf07210e8fa",
+      "releaseBytes": 11143
+    },
+    {
+      "path": "simulation/results.json.gz",
+      "source": "simulation/results.json",
+      "sourceSha256": "6e5f440e13367bf8ad8c9851fbbaa8d9c9b5fa523143ec853341e7879ac280c1",
+      "sourceBytes": 2615517,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "5e51bc601ca5e1e6999edcdac9c4c8384ebe52c44ec7f31a4999255b542d286a",
+      "releaseBytes": 826470
+    },
+    {
+      "path": "simulation/results-first-pass.json.gz",
+      "source": "simulation/results-first-pass.json",
+      "sourceSha256": "17076a8a3f1a497d7a2c83650191a0ad8bcb2e290d337578336f1fd44d55ab14",
+      "sourceBytes": 764367,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "0c9bdfc76144d2811469386b05714a14488ce8281d382fea0d516f990317ab87",
+      "releaseBytes": 309204
+    },
+    {
+      "path": "simulation/results-domain-first-pass.json.gz",
+      "source": "simulation/results-domain-first-pass.json",
+      "sourceSha256": "4276a0b863be41e0492aba9ec3dbbb75fa0a631119eb6f67e22b3d26fb6a2c13",
+      "sourceBytes": 1552133,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "8caa4e62366fcb20327ae2bc8429958ce617a21738785ae8573cb1f3d1193f74",
+      "releaseBytes": 577944
+    },
+    {
+      "path": "simulation/results-envelope-validation.json.gz",
+      "source": "simulation/results-envelope-validation.json",
+      "sourceSha256": "a6e1efe0dd93409c8f2599bac83a9d29a27cab9c382f85d7b07e0e1e04855ec2",
+      "sourceBytes": 1029537,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "ab627cfe97789159509e0c25d2292f4aed1b72b20a3bd38f0f388c8732288973",
+      "releaseBytes": 361181
+    },
+    {
+      "path": "simulation/results-contact-validation.json.gz",
+      "source": "simulation/results-contact-validation.json",
+      "sourceSha256": "69e9238859eb02a174c671f4fddbf8a161bd5e4691b348f073620d70fd236929",
+      "sourceBytes": 1559783,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "dd50b8d93a64c63907291ac573f4b388454348e5c81b633f0d6852bcac2f0439",
+      "releaseBytes": 580200
+    },
+    {
+      "path": "simulation/training.log",
+      "source": "simulation/training.log",
+      "sourceSha256": "5e96785cbf931519dd3ec8cf102ab41a3df97f64f3de85b9d43ac5015d0ef668",
+      "sourceBytes": 7051,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "a4bbb9f7928b09b4cdc9d7d710f94052d0c5444c048e11546e49e93b986bb082",
+      "releaseBytes": 7004
+    },
+    {
+      "path": "simulation/training-domain-first-pass.log",
+      "source": "simulation/training-domain-first-pass.log",
+      "sourceSha256": "e4c751037dbbe8846a539a04ab39733f6610f48fdff80923c18b959e6a8322f7",
+      "sourceBytes": 7049,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "ff1c127db5fb2a24acf9f5b73467bb697e7d66badbc996ca519887831cc48824",
+      "releaseBytes": 7002
+    },
+    {
+      "path": "simulation/training-envelope-validation.log",
+      "source": "simulation/training-envelope-validation.log",
+      "sourceSha256": "0b510a53767308b9167b24765dd7fa0cf1843e68a7a02e62abc75130f147ffdc",
+      "sourceBytes": 5322,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "1fcc0be0083aecaef3bb8f1c93a33971eb2bc1f5a7dffef68d45ef48d6965165",
+      "releaseBytes": 5275
+    },
+    {
+      "path": "simulation/training-contact-validation.log",
+      "source": "simulation/training-contact-validation.log",
+      "sourceSha256": "c8de0daf81f591b939fc61f509d57ab3544e96c140c8ba5b3df005587f8825b4",
+      "sourceBytes": 7049,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "a4e38a3345c445c59519151ba008f7290aeeff932fdd4fcf90997137d7a67fec",
+      "releaseBytes": 7002
+    },
+    {
+      "path": "simulation_v2/core.py",
+      "source": "simulation_v2/core.py",
+      "sourceSha256": "aaccd29a34c10f18c866e079000f4432f65e60e45b3f2e8f6f3f8dcaf619ac13",
+      "sourceBytes": 43435,
+      "changes": "",
+      "releaseSha256": "aaccd29a34c10f18c866e079000f4432f65e60e45b3f2e8f6f3f8dcaf619ac13",
+      "releaseBytes": 43435
+    },
+    {
+      "path": "simulation_v2/train.py",
+      "source": "simulation_v2/train.py",
+      "sourceSha256": "eac1233510149ac51674a7133ac0648bd1c32f99224dd1315b2685b3463e92de",
+      "sourceBytes": 19628,
+      "changes": "",
+      "releaseSha256": "eac1233510149ac51674a7133ac0648bd1c32f99224dd1315b2685b3463e92de",
+      "releaseBytes": 19628
+    },
+    {
+      "path": "simulation_v2/run_case.py",
+      "source": "simulation_v2/run_case.py",
+      "sourceSha256": "eb1286f30678613097c39f1cd8e43962a8245efa92d29addeb28f939869a8a1c",
+      "sourceBytes": 2600,
+      "changes": "",
+      "releaseSha256": "eb1286f30678613097c39f1cd8e43962a8245efa92d29addeb28f939869a8a1c",
+      "releaseBytes": 2600
+    },
+    {
+      "path": "simulation_v2/test_core.py",
+      "source": "simulation_v2/test_core.py",
+      "sourceSha256": "f9e56c8a7ceeae606189e1718d785dcff19ac577e3b2d808094af3393babc05e",
+      "sourceBytes": 14321,
+      "changes": "",
+      "releaseSha256": "f9e56c8a7ceeae606189e1718d785dcff19ac577e3b2d808094af3393babc05e",
+      "releaseBytes": 14321
+    },
+    {
+      "path": "simulation_v2/audit_results.py",
+      "source": "simulation_v2/audit_results.py",
+      "sourceSha256": "2fe1b76bfd035aa4f687645f81b4e077393c0bc487785e36e844a16c193d5091",
+      "sourceBytes": 8947,
+      "changes": "",
+      "releaseSha256": "2fe1b76bfd035aa4f687645f81b4e077393c0bc487785e36e844a16c193d5091",
+      "releaseBytes": 8947
+    },
+    {
+      "path": "simulation_v2/audit_training_records.py",
+      "source": "simulation_v2/audit_training_records.py",
+      "sourceSha256": "e4053689d825e60bfc665a602af150d56e17e6af826bc0651e60df756734ec93",
+      "sourceBytes": 7528,
+      "changes": "",
+      "releaseSha256": "e4053689d825e60bfc665a602af150d56e17e6af826bc0651e60df756734ec93",
+      "releaseBytes": 7528
+    },
+    {
+      "path": "simulation_v2/export_parity.py",
+      "source": "simulation_v2/export_parity.py",
+      "sourceSha256": "db4dfedf8389be01a4d45d11dfa68b0ea9baa08e45346ad8bd9987bcb8e50dcc",
+      "sourceBytes": 4534,
+      "changes": "",
+      "releaseSha256": "db4dfedf8389be01a4d45d11dfa68b0ea9baa08e45346ad8bd9987bcb8e50dcc",
+      "releaseBytes": 4534
+    },
+    {
+      "path": "simulation_v2/export-browser-fixtures.py",
+      "source": "simulation_v2/export-browser-fixtures.py",
+      "sourceSha256": "1b250dffe0f172fb4ea58ad95c803f1da897042b553a5900e67b199fedac3855",
+      "sourceBytes": 4514,
+      "changes": "",
+      "releaseSha256": "1b250dffe0f172fb4ea58ad95c803f1da897042b553a5900e67b199fedac3855",
+      "releaseBytes": 4514
+    },
+    {
+      "path": "simulation_v2/requirements.txt",
+      "source": "simulation_v2/requirements.txt",
+      "sourceSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "sourceBytes": 42,
+      "changes": "",
+      "releaseSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "releaseBytes": 42
+    },
+    {
+      "path": "simulation_v2/config.json",
+      "source": "simulation_v2/config.json",
+      "sourceSha256": "72e813f2e69ff915e3d4a31c817b9c6497374b9d1d5fdaa2202d348cee51ff2e",
+      "sourceBytes": 6907,
+      "changes": "",
+      "releaseSha256": "72e813f2e69ff915e3d4a31c817b9c6497374b9d1d5fdaa2202d348cee51ff2e",
+      "releaseBytes": 6907
+    },
+    {
+      "path": "simulation_v2/world.xml",
+      "source": "simulation_v2/world.xml",
+      "sourceSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "sourceBytes": 3469,
+      "changes": "",
+      "releaseSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "releaseBytes": 3469
+    },
+    {
+      "path": "simulation_v2/controller.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v2/controller.mjs",
+      "sourceSha256": "c4dc09b58d263afc9d79c8472596a0d7ecaedbd7c07ff704fd58576331c3c63a",
+      "sourceBytes": 16481,
+      "changes": "",
+      "releaseSha256": "c4dc09b58d263afc9d79c8472596a0d7ecaedbd7c07ff704fd58576331c3c63a",
+      "releaseBytes": 16481
+    },
+    {
+      "path": "simulation_v2/policies.json",
+      "source": "simulation_v2/policies.json",
+      "sourceSha256": "ca1ff81f974321f1920ecc2e2beb4313b3c485a452fa739469a2c382e904a2b6",
+      "sourceBytes": 17823,
+      "changes": "",
+      "releaseSha256": "ca1ff81f974321f1920ecc2e2beb4313b3c485a452fa739469a2c382e904a2b6",
+      "releaseBytes": 17823
+    },
+    {
+      "path": "simulation_v2/results.json.gz",
+      "source": "simulation_v2/results.json",
+      "sourceSha256": "0e842c7de451718be13be703be246deb6fc0033b2ac159f00ea26f3576e03213",
+      "sourceBytes": 16631996,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "8d56cdcb488cf314cf68b8893c7a1262c32a3869cdbea208627703469cb0bec3",
+      "releaseBytes": 3647133
+    },
+    {
+      "path": "simulation_v2/training-episodes.jsonl.gz",
+      "source": "simulation_v2/training-episodes.jsonl",
+      "sourceSha256": "81f35d51c384ae883c865f5d5e1fc1341fd5e43b3feb0f22f976740b7e859aac",
+      "sourceBytes": 27703000,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "9284b61efc76884ae27c8c417b3cb74299b1b00b4a85820abbd38e91fac3cd8d",
+      "releaseBytes": 4504871
+    },
+    {
+      "path": "simulation_v2/candidate-records.jsonl.gz",
+      "source": "simulation_v2/candidate-records.jsonl",
+      "sourceSha256": "546e4bdbb90ecdfd3f9946a7097f1b04133a6283de7d40bd6d377537b75c5922",
+      "sourceBytes": 23818645,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "4a27b0dbcaa01976a630b7ca5f1f277f5a8dde5059d93cbf03ff76c358d620d2",
+      "releaseBytes": 4373526
+    },
+    {
+      "path": "simulation_v2/checkpoint-index.json",
+      "source": "simulation_v2/checkpoint-index.json",
+      "sourceSha256": "6f7c417731f3f82a284e65d45bc9eba5ffcbb775953c56f8c707cc44b634e964",
+      "sourceBytes": 1797,
+      "changes": "",
+      "releaseSha256": "6f7c417731f3f82a284e65d45bc9eba5ffcbb775953c56f8c707cc44b634e964",
+      "releaseBytes": 1797
+    },
+    {
+      "path": "simulation_v2/training.log",
+      "source": "simulation_v2/training.log",
+      "sourceSha256": "e9ac0e2001c7b9913b3433f9c5942bb82a57d4349df78d955b36d33d8a4f2997",
+      "sourceBytes": 15629,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "4f8c4218f7eb15c8649cee2bc808a48496a63b09de093a0fe7386cf661ed9a88",
+      "releaseBytes": 15579
+    },
+    {
+      "path": "simulation_v2/training-record-audit.json",
+      "source": "simulation_v2/training-record-audit.json",
+      "sourceSha256": "a14203272e6df7559b0a0eea0354df7849360dfd5db79541809acf44c27bfa29",
+      "sourceBytes": 1173,
+      "changes": "",
+      "releaseSha256": "a14203272e6df7559b0a0eea0354df7849360dfd5db79541809acf44c27bfa29",
+      "releaseBytes": 1173
+    },
+    {
+      "path": "simulation_v2/audit.json",
+      "source": "simulation_v2/audit.json",
+      "sourceSha256": "944a9e448a12987b517a618cb1990f6999736e792ba890ca8e9d87d51a0dbae4",
+      "sourceBytes": 172115,
+      "changes": "",
+      "releaseSha256": "944a9e448a12987b517a618cb1990f6999736e792ba890ca8e9d87d51a0dbae4",
+      "releaseBytes": 172115
+    },
+    {
+      "path": "simulation_v2/completion-summary.json",
+      "source": "simulation_v2/completion-summary.json",
+      "sourceSha256": "69d35bfcdc64efb589b8e8899fbfffa878f3fe03f644638cfc63163ccaf8aaee",
+      "sourceBytes": 15093,
+      "changes": "",
+      "releaseSha256": "69d35bfcdc64efb589b8e8899fbfffa878f3fe03f644638cfc63163ccaf8aaee",
+      "releaseBytes": 15093
+    },
+    {
+      "path": "simulation_v2/flight-energy-audit.json",
+      "source": "simulation_v2/flight-energy-audit.json",
+      "sourceSha256": "bee65a166ed58cd6f106d68a9f8a707c4f117fe81451f62c73431f3ce155b32b",
+      "sourceBytes": 10566,
+      "changes": "",
+      "releaseSha256": "bee65a166ed58cd6f106d68a9f8a707c4f117fe81451f62c73431f3ce155b32b",
+      "releaseBytes": 10566
+    },
+    {
+      "path": "simulation_v2/controller-parity.json",
+      "source": "simulation_v2/controller-parity.json",
+      "sourceSha256": "a1d831ef45060d09b5e6f3a63184582c66118d30e9faee4930bb208eb849e735",
+      "sourceBytes": 685076,
+      "changes": "",
+      "releaseSha256": "a1d831ef45060d09b5e6f3a63184582c66118d30e9faee4930bb208eb849e735",
+      "releaseBytes": 685076
+    },
+    {
+      "path": "simulation_v2/browser-verification.json",
+      "source": "simulation_v2/browser-verification.json",
+      "sourceSha256": "35e8dbd86659ac153b92bf74f681b507af3d2897c8f26b6bdcdca318791a995d",
+      "sourceBytes": 13676,
+      "changes": "",
+      "releaseSha256": "35e8dbd86659ac153b92bf74f681b507af3d2897c8f26b6bdcdca318791a995d",
+      "releaseBytes": 13676
+    },
+    {
+      "path": "simulation_v2/runtime-versions.json",
+      "source": "simulation_v2/runtime-versions.json",
+      "sourceSha256": "4bd7e3de4fc6d58a19d42810c160ddb8f9c63e107ae4f4b42c99431de95d5da4",
+      "sourceBytes": 114,
+      "changes": "",
+      "releaseSha256": "4bd7e3de4fc6d58a19d42810c160ddb8f9c63e107ae4f4b42c99431de95d5da4",
+      "releaseBytes": 114
+    },
+    {
+      "path": "simulation_v2/public-reproduction-check.json",
+      "source": "simulation_v2/public-reproduction-check.json",
+      "sourceSha256": "01db98d58d0590e271360691d8f5a87c0241246ddb1f28173f970167c214f5ba",
+      "sourceBytes": 3253,
+      "changes": "",
+      "releaseSha256": "01db98d58d0590e271360691d8f5a87c0241246ddb1f28173f970167c214f5ba",
+      "releaseBytes": 3253
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-005.json.gz",
+      "source": "simulation_v2/checkpoints/generation-005.json",
+      "sourceSha256": "2b1051f0eb8400443eb75a916dfe333085579a11d2303d82420badcce93eaab9",
+      "sourceBytes": 2077412,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "628cddce95b2578306674b08a80a5e52bd3a65585ed58722b5c838c383784b37",
+      "releaseBytes": 508133
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-010.json.gz",
+      "source": "simulation_v2/checkpoints/generation-010.json",
+      "sourceSha256": "99cd43eefe96d87428e0e753a1024b8c04852c5cc92959ea61cabc67c99aa099",
+      "sourceBytes": 1973883,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "f0051043a8915edce4e526795071e0fa10ac5f9e82a5b0e8e302c6805bab6d10",
+      "releaseBytes": 483628
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-015.json.gz",
+      "source": "simulation_v2/checkpoints/generation-015.json",
+      "sourceSha256": "6c7090fec41948ff2228dbabb4b020827e41b21595f1d10b61b061bae2240242",
+      "sourceBytes": 2114598,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "804f52fd166e4a268b39c8d075b4addda9a21bf96005acd6d6d8527ebed7c5e8",
+      "releaseBytes": 518724
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-020.json.gz",
+      "source": "simulation_v2/checkpoints/generation-020.json",
+      "sourceSha256": "fcacc9bc3db8e8ea40d93ba216295ee4f111599808a8a957aa676f0e425148be",
+      "sourceBytes": 2114598,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "6a4928c902d9f10734ea4463608296db8ef8e9264d25429f83b38aeb54d29477",
+      "releaseBytes": 518727
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-025.json.gz",
+      "source": "simulation_v2/checkpoints/generation-025.json",
+      "sourceSha256": "10e035c8dffcee60ff4f9feb19208ce71e863b2e5ecb6ac7c81197f9042b7ac5",
+      "sourceBytes": 2024852,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "f02843a26ed42fc4e352c49cfa8debd2ba2f395c42fa116b002b1bbda61f4b09",
+      "releaseBytes": 494063
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-030.json.gz",
+      "source": "simulation_v2/checkpoints/generation-030.json",
+      "sourceSha256": "0f164d94934fa4815230524241a13e9a82b722e8d7f0b62ed905a4e5193d403e",
+      "sourceBytes": 2024852,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "ea13b27b3d419ea6583ffa5b4b12ef11e39bf1d0d3b45a29a3f9cbc776f44a42",
+      "releaseBytes": 494067
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-035.json.gz",
+      "source": "simulation_v2/checkpoints/generation-035.json",
+      "sourceSha256": "7c3db81b4ff1295c0f301838028727223a1aa314c902a8c29a18fa5008467c5c",
+      "sourceBytes": 1992024,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "ddfc54847c5c80ddba565df4d7019288aee6675670d4250524fde151717625fc",
+      "releaseBytes": 484614
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-040.json.gz",
+      "source": "simulation_v2/checkpoints/generation-040.json",
+      "sourceSha256": "3177637f1100cedff741937c406ee5ce2bfc5f98a3117c1b377508ab2dc46fca",
+      "sourceBytes": 2112952,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "97f5759d72d1dd8120a5b6f17ae125ad55b7f1d4063eb59255e04cb840ab5c77",
+      "releaseBytes": 520502
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-045.json.gz",
+      "source": "simulation_v2/checkpoints/generation-045.json",
+      "sourceSha256": "b3f47f06e22824a7cf56862f85490bba1070ddc2153d0cca1228cf3127d1acf3",
+      "sourceBytes": 2112952,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "d5cbf641bea4a5f5ab921080e9195cec37787842f33df6ec9602220cbb9bbc7f",
+      "releaseBytes": 520503
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-050.json.gz",
+      "source": "simulation_v2/checkpoints/generation-050.json",
+      "sourceSha256": "9353b606966c83bccebbc1431523f565e965afcdbea5f5d40ec136bb4d85b238",
+      "sourceBytes": 2076799,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "b5fc38e2e0c609aa76ee14ffabfaf70217e6617bd24043018594a7651ae8a968",
+      "releaseBytes": 508660
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-055.json.gz",
+      "source": "simulation_v2/checkpoints/generation-055.json",
+      "sourceSha256": "4571ae682cdac7f7e22219de9b60372e8b722ffaa290007a843606a4f6db62f6",
+      "sourceBytes": 2076799,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "9adf1e847e86c855cf51b9e57e2172c9ae6708a0e1f5f47d51728b11b7b339d2",
+      "releaseBytes": 508660
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-060.json.gz",
+      "source": "simulation_v2/checkpoints/generation-060.json",
+      "sourceSha256": "e57428d6432c215a54580bc5995e1e8b41acc693729c7e7b4deaee1fdcb79786",
+      "sourceBytes": 2076799,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "91fc8c8ea0c06d05da062d329c27a85404c308dcf58d646f845d45d67eb26a8a",
+      "releaseBytes": 508662
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-065.json.gz",
+      "source": "simulation_v2/checkpoints/generation-065.json",
+      "sourceSha256": "548c22b415aa9425f6af1d9acf6c258b3d0b4d4d3618b03bd7806d555ddbf716",
+      "sourceBytes": 1989509,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "8d2a07f51e4ca6c646925aa971d78f8816088e11344fa04debbfb91f88c06127",
+      "releaseBytes": 487185
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-070.json.gz",
+      "source": "simulation_v2/checkpoints/generation-070.json",
+      "sourceSha256": "3c6437f8c1b2b376c45e9283408432511f71ce77fd6b764700f12ae1ed88d70f",
+      "sourceBytes": 1989509,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "a726724eb27ea05bf4a8e1cfd672f0b44166a2c7dafacf935caa96bcce2e7725",
+      "releaseBytes": 487185
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-075.json.gz",
+      "source": "simulation_v2/checkpoints/generation-075.json",
+      "sourceSha256": "4b815904a7ffcfe9475f4d5971cc85e64d36f15ff4e59066117a40daacf186b7",
+      "sourceBytes": 1976326,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "81bb5986bbfc7b94bb6ddd67803cc3a054510b8563d46011317d94b0c40b67d2",
+      "releaseBytes": 484989
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-080.json.gz",
+      "source": "simulation_v2/checkpoints/generation-080.json",
+      "sourceSha256": "0bcc9acbb0ed9b6c9307caef6ca4f3fcd40cf1628fa8b6e4b27b4f0efe245955",
+      "sourceBytes": 1976326,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "cbe13c9c69c96bd6da7e0503e6c55d10f2ab4b862b3164f42a9b35660da97f15",
+      "releaseBytes": 484990
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-085.json.gz",
+      "source": "simulation_v2/checkpoints/generation-085.json",
+      "sourceSha256": "a1271b112f698200c0bc0fe712833c468f2ac8f50cd40a2e17aa71ca155e08eb",
+      "sourceBytes": 1976326,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "26b25f6291c8f4936174f7741d91bbdeb6917d5323c789af8f07d4bf3479d547",
+      "releaseBytes": 484991
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-090.json.gz",
+      "source": "simulation_v2/checkpoints/generation-090.json",
+      "sourceSha256": "4af0e757e78fb4d1ce62d46108f6494d467516edd3922c3aa28663bd6586c537",
+      "sourceBytes": 1976326,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "ab73fa1062e7f2ca09af6fb4d0ef1f787167ededc86890c192c39e4885967480",
+      "releaseBytes": 484990
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-095.json.gz",
+      "source": "simulation_v2/checkpoints/generation-095.json",
+      "sourceSha256": "1b65701e806f2e0d30ba64a1b7eda4c8ddc1ef57d9921ec0bded3d3d4cd381c7",
+      "sourceBytes": 1976326,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "d4844566547287fda53828182fbae175be96ba9082b9d165c4a60f73174ba155",
+      "releaseBytes": 484991
+    },
+    {
+      "path": "simulation_v2/checkpoints/generation-100.json.gz",
+      "source": "simulation_v2/checkpoints/generation-100.json",
+      "sourceSha256": "568119c425b82c91c78db7ca0e34067473d83a8012478fc45a6676aa8e6e6387",
+      "sourceBytes": 1976327,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "e465c7828ea1b5bff1062fd1f190b96c271babc293fefa18bce9a71c6de1e8d5",
+      "releaseBytes": 484991
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/core.py",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/core.py",
+      "sourceSha256": "771e97f74a1794f263b5faaf6f5238770f5ef4036007a104cddcddf6c40bb77a",
+      "sourceBytes": 36861,
+      "changes": "",
+      "releaseSha256": "771e97f74a1794f263b5faaf6f5238770f5ef4036007a104cddcddf6c40bb77a",
+      "releaseBytes": 36861
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/train.py",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/train.py",
+      "sourceSha256": "414e5ad184331660d1fe9e181436ce3ba64c83ea2c4269b5bc5547c411974373",
+      "sourceBytes": 14192,
+      "changes": "",
+      "releaseSha256": "414e5ad184331660d1fe9e181436ce3ba64c83ea2c4269b5bc5547c411974373",
+      "releaseBytes": 14192
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/controller.mjs",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/controller.mjs",
+      "sourceSha256": "157a1939e9b8eed0d6f44cbd4ede5e3608c5c59221ea7f44ca449e098ca504f5",
+      "sourceBytes": 11373,
+      "changes": "",
+      "releaseSha256": "157a1939e9b8eed0d6f44cbd4ede5e3608c5c59221ea7f44ca449e098ca504f5",
+      "releaseBytes": 11373
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/browser-runtime.mjs",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/browser-runtime.mjs",
+      "sourceSha256": "ea9c965348f1669e742b1f6aad84d4cb5d1543e3f9f9480cb38864008b6d2671",
+      "sourceBytes": 17798,
+      "changes": "",
+      "releaseSha256": "ea9c965348f1669e742b1f6aad84d4cb5d1543e3f9f9480cb38864008b6d2671",
+      "releaseBytes": 17798
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/requirements.txt",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/requirements.txt",
+      "sourceSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "sourceBytes": 42,
+      "changes": "",
+      "releaseSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "releaseBytes": 42
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/config.json",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/config.json",
+      "sourceSha256": "82ed86eab5f63d069a4a5c5513cdd528cba41a96f365235ebca9b88a8a2f54f8",
+      "sourceBytes": 5456,
+      "changes": "",
+      "releaseSha256": "82ed86eab5f63d069a4a5c5513cdd528cba41a96f365235ebca9b88a8a2f54f8",
+      "releaseBytes": 5456
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/world.xml",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/world.xml",
+      "sourceSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "sourceBytes": 3469,
+      "changes": "",
+      "releaseSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "releaseBytes": 3469
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/policies.json",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/policies.json",
+      "sourceSha256": "23e9728df6285d61fbf92af779cf2ea0087780f42e0d2bd348ca3b0ce71d722a",
+      "sourceBytes": 14864,
+      "changes": "",
+      "releaseSha256": "23e9728df6285d61fbf92af779cf2ea0087780f42e0d2bd348ca3b0ce71d722a",
+      "releaseBytes": 14864
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/results.json.gz",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/results.json",
+      "sourceSha256": "2217cab0d1aa73070a6560ce0b2a3c82b1eebd2a127e958bf19cb394b4dcfce2",
+      "sourceBytes": 11707282,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "7165b46c288f5bd15bc7355f5aab7179807db520c685b0f68f0adab9abb5d9cc",
+      "releaseBytes": 2864858
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/core.py",
+      "source": "simulation_v2/archive/launch-coupled-r5/core.py",
+      "sourceSha256": "4bf4dffbfc612613e445de998d72d3a08d94b1b7edf2acfd7c4a076253fe66fb",
+      "sourceBytes": 36950,
+      "changes": "",
+      "releaseSha256": "4bf4dffbfc612613e445de998d72d3a08d94b1b7edf2acfd7c4a076253fe66fb",
+      "releaseBytes": 36950
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/train.py",
+      "source": "simulation_v2/archive/launch-coupled-r5/train.py",
+      "sourceSha256": "64618fb216d73a1c5ade85ec227eb274100d10b833593c12024fedeab21ff4c2",
+      "sourceBytes": 14176,
+      "changes": "",
+      "releaseSha256": "64618fb216d73a1c5ade85ec227eb274100d10b833593c12024fedeab21ff4c2",
+      "releaseBytes": 14176
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/controller.mjs",
+      "source": "simulation_v2/archive/launch-coupled-r5/controller.mjs",
+      "sourceSha256": "5d9c79c6fc5f560a917e74eafe1838933a9b6745b1c00c2cfd9b6e38001032e7",
+      "sourceBytes": 11447,
+      "changes": "",
+      "releaseSha256": "5d9c79c6fc5f560a917e74eafe1838933a9b6745b1c00c2cfd9b6e38001032e7",
+      "releaseBytes": 11447
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/browser-runtime.mjs",
+      "source": "simulation_v2/archive/launch-coupled-r5/browser-runtime.mjs",
+      "sourceSha256": "316be49a9459297f4304786822dd0c40037e3eda7d39cffd1c5a98eeccda94a8",
+      "sourceBytes": 17920,
+      "changes": "",
+      "releaseSha256": "316be49a9459297f4304786822dd0c40037e3eda7d39cffd1c5a98eeccda94a8",
+      "releaseBytes": 17920
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/requirements.txt",
+      "source": "simulation_v2/archive/launch-coupled-r5/requirements.txt",
+      "sourceSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "sourceBytes": 42,
+      "changes": "",
+      "releaseSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "releaseBytes": 42
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/config.json",
+      "source": "simulation_v2/archive/launch-coupled-r5/config.json",
+      "sourceSha256": "4aecc5d3a5c0598815978f509c50ad708fb5b1ac57999d7117c80228c962500e",
+      "sourceBytes": 5929,
+      "changes": "",
+      "releaseSha256": "4aecc5d3a5c0598815978f509c50ad708fb5b1ac57999d7117c80228c962500e",
+      "releaseBytes": 5929
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/world.xml",
+      "source": "simulation_v2/archive/launch-coupled-r5/world.xml",
+      "sourceSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "sourceBytes": 3469,
+      "changes": "",
+      "releaseSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "releaseBytes": 3469
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/policies.json",
+      "source": "simulation_v2/archive/launch-coupled-r5/policies.json",
+      "sourceSha256": "6e3a0772ca36020fe1b0e96c2f811781183c80dd255e2b16aec46b3b85deb437",
+      "sourceBytes": 15738,
+      "changes": "",
+      "releaseSha256": "6e3a0772ca36020fe1b0e96c2f811781183c80dd255e2b16aec46b3b85deb437",
+      "releaseBytes": 15738
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/results.json.gz",
+      "source": "simulation_v2/archive/launch-coupled-r5/results.json",
+      "sourceSha256": "2258731f6b477d50224746f0046a9fddcf2feb49e5be5bd8453efb54dffd236c",
+      "sourceBytes": 9597927,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "eb49bc1b7e74d85e58ccc2061731587ebb0ffa4b918a8b1029f128fa3206ae66",
+      "releaseBytes": 2313465
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/core.py",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/core.py",
+      "sourceSha256": "aaccd29a34c10f18c866e079000f4432f65e60e45b3f2e8f6f3f8dcaf619ac13",
+      "sourceBytes": 43435,
+      "changes": "",
+      "releaseSha256": "aaccd29a34c10f18c866e079000f4432f65e60e45b3f2e8f6f3f8dcaf619ac13",
+      "releaseBytes": 43435
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/train.py",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/train.py",
+      "sourceSha256": "6535016c90d67a0900a11e1cdb1e30294798c82c52565f14836abadeb65bcde5",
+      "sourceBytes": 14638,
+      "changes": "",
+      "releaseSha256": "6535016c90d67a0900a11e1cdb1e30294798c82c52565f14836abadeb65bcde5",
+      "releaseBytes": 14638
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/controller.mjs",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/controller.mjs",
+      "sourceSha256": "c4dc09b58d263afc9d79c8472596a0d7ecaedbd7c07ff704fd58576331c3c63a",
+      "sourceBytes": 16481,
+      "changes": "",
+      "releaseSha256": "c4dc09b58d263afc9d79c8472596a0d7ecaedbd7c07ff704fd58576331c3c63a",
+      "releaseBytes": 16481
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/browser-runtime.mjs",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/browser-runtime.mjs",
+      "sourceSha256": "552142cab13027b360f66022257e454bb0441afd2f6ebb8a1d995135ce16723e",
+      "sourceBytes": 18338,
+      "changes": "",
+      "releaseSha256": "552142cab13027b360f66022257e454bb0441afd2f6ebb8a1d995135ce16723e",
+      "releaseBytes": 18338
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/requirements.txt",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/requirements.txt",
+      "sourceSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "sourceBytes": 42,
+      "changes": "",
+      "releaseSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "releaseBytes": 42
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/config.json",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/config.json",
+      "sourceSha256": "0dfdf9fb994320b15fa7aaa3c27e7a978a6ebe7442dd74daedbb153dd37a3e30",
+      "sourceBytes": 6813,
+      "changes": "",
+      "releaseSha256": "0dfdf9fb994320b15fa7aaa3c27e7a978a6ebe7442dd74daedbb153dd37a3e30",
+      "releaseBytes": 6813
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/world.xml",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/world.xml",
+      "sourceSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "sourceBytes": 3469,
+      "changes": "",
+      "releaseSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "releaseBytes": 3469
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/policies.json",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/policies.json",
+      "sourceSha256": "baba45b0a3f8b4b5038cb2866d0ec323410dd6446d0b5481df60cdc77a9ac250",
+      "sourceBytes": 11060,
+      "changes": "",
+      "releaseSha256": "baba45b0a3f8b4b5038cb2866d0ec323410dd6446d0b5481df60cdc77a9ac250",
+      "releaseBytes": 11060
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/results.json.gz",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/results.json",
+      "sourceSha256": "3b1483eaea2a2e0b43ef482819beb4ed0c7d436378755582322accb1ade22b63",
+      "sourceBytes": 9018251,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "ccf6c30664b0f37f9ed56d77432a81f2f37b30ed04d2e96ba714818ee9203a1d",
+      "releaseBytes": 1808608
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/INTERRUPTION.json",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/INTERRUPTION.json",
+      "sourceSha256": "0552bec1b0e64cee791debefb2df985b94bddf3b6bd44e1076f315b18f13a05f",
+      "sourceBytes": 617,
+      "changes": "",
+      "releaseSha256": "0552bec1b0e64cee791debefb2df985b94bddf3b6bd44e1076f315b18f13a05f",
+      "releaseBytes": 617
+    },
+    {
+      "path": "simulation_v3/baseline_r6/config.json",
+      "source": "simulation_v3/baseline_r6/config.json",
+      "sourceSha256": "72e813f2e69ff915e3d4a31c817b9c6497374b9d1d5fdaa2202d348cee51ff2e",
+      "sourceBytes": 6907,
+      "changes": "",
+      "releaseSha256": "72e813f2e69ff915e3d4a31c817b9c6497374b9d1d5fdaa2202d348cee51ff2e",
+      "releaseBytes": 6907
+    },
+    {
+      "path": "simulation_v3/baseline_r6/controller.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v3/baseline_r6/controller.mjs",
+      "sourceSha256": "c4dc09b58d263afc9d79c8472596a0d7ecaedbd7c07ff704fd58576331c3c63a",
+      "sourceBytes": 16481,
+      "changes": "",
+      "releaseSha256": "c4dc09b58d263afc9d79c8472596a0d7ecaedbd7c07ff704fd58576331c3c63a",
+      "releaseBytes": 16481
+    },
+    {
+      "path": "simulation_v3/baseline_r6/core.py",
+      "source": "simulation_v3/baseline_r6/core.py",
+      "sourceSha256": "aaccd29a34c10f18c866e079000f4432f65e60e45b3f2e8f6f3f8dcaf619ac13",
+      "sourceBytes": 43435,
+      "changes": "",
+      "releaseSha256": "aaccd29a34c10f18c866e079000f4432f65e60e45b3f2e8f6f3f8dcaf619ac13",
+      "releaseBytes": 43435
+    },
+    {
+      "path": "simulation_v3/baseline_r6/policies.json",
+      "source": "simulation_v3/baseline_r6/policies.json",
+      "sourceSha256": "ca1ff81f974321f1920ecc2e2beb4313b3c485a452fa739469a2c382e904a2b6",
+      "sourceBytes": 17823,
+      "changes": "",
+      "releaseSha256": "ca1ff81f974321f1920ecc2e2beb4313b3c485a452fa739469a2c382e904a2b6",
+      "releaseBytes": 17823
+    },
+    {
+      "path": "simulation_v3/baseline_r6/requirements.txt",
+      "source": "simulation_v3/baseline_r6/requirements.txt",
+      "sourceSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "sourceBytes": 42,
+      "changes": "",
+      "releaseSha256": "5463cceaf756f584f429b633fd9322f0e243cddb997626aeeda439f8eff8616d",
+      "releaseBytes": 42
+    },
+    {
+      "path": "simulation_v3/baseline_r6/world.xml",
+      "source": "simulation_v3/baseline_r6/world.xml",
+      "sourceSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "sourceBytes": 3469,
+      "changes": "",
+      "releaseSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "releaseBytes": 3469
+    },
+    {
+      "path": "simulation_v3/allocator/canonical_allocation.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v3/allocator/canonical_allocation.mjs",
+      "sourceSha256": "ba8373f723e5b0da6e00522b003964d0d9e5e24958c86441cf92a204f0204256",
+      "sourceBytes": 1624,
+      "changes": "",
+      "releaseSha256": "ba8373f723e5b0da6e00522b003964d0d9e5e24958c86441cf92a204f0204256",
+      "releaseBytes": 1624
+    },
+    {
+      "path": "simulation_v3/allocator/canonical_allocation.py",
+      "source": "simulation_v3/allocator/canonical_allocation.py",
+      "sourceSha256": "b74da3e388df7cc6872268bd74af29c6a7be74a1358bcb6c97df5eb249895581",
+      "sourceBytes": 1651,
+      "changes": "",
+      "releaseSha256": "b74da3e388df7cc6872268bd74af29c6a7be74a1358bcb6c97df5eb249895581",
+      "releaseBytes": 1651
+    },
+    {
+      "path": "simulation_v3/allocator/conservative_allocator.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v3/allocator/conservative_allocator.mjs",
+      "sourceSha256": "6a4052e8cd533cc8323516fe7a8ed9f3f48dab35f99d8b7bbe95469dd67363e6",
+      "sourceBytes": 2045,
+      "changes": "",
+      "releaseSha256": "6a4052e8cd533cc8323516fe7a8ed9f3f48dab35f99d8b7bbe95469dd67363e6",
+      "releaseBytes": 2045
+    },
+    {
+      "path": "simulation_v3/allocator/conservative_allocator.py",
+      "source": "simulation_v3/allocator/conservative_allocator.py",
+      "sourceSha256": "b27fe8aa3c3c466cabbf5372f56acdf2c9fba1343b43eab07df43574936659a2",
+      "sourceBytes": 2191,
+      "changes": "",
+      "releaseSha256": "b27fe8aa3c3c466cabbf5372f56acdf2c9fba1343b43eab07df43574936659a2",
+      "releaseBytes": 2191
+    },
+    {
+      "path": "simulation_v3/controller.py",
+      "source": "simulation_v3/controller.py",
+      "sourceSha256": "5aa754c6891df657ddab8a583b5c9005adeedd531a982c83a3fcef9a695363a2",
+      "sourceBytes": 11270,
+      "changes": "",
+      "releaseSha256": "5aa754c6891df657ddab8a583b5c9005adeedd531a982c83a3fcef9a695363a2",
+      "releaseBytes": 11270
+    },
+    {
+      "path": "simulation_v3/landing_predictor.py",
+      "source": "simulation_v3/landing_predictor.py",
+      "sourceSha256": "81d09e6b66e0f50ae177fd58030855ffe358b5adbaa404c3a2158df973dc1db7",
+      "sourceBytes": 3442,
+      "changes": "",
+      "releaseSha256": "81d09e6b66e0f50ae177fd58030855ffe358b5adbaa404c3a2158df973dc1db7",
+      "releaseBytes": 3442
+    },
+    {
+      "path": "simulation_v3/evaluate.py",
+      "source": "simulation_v3/evaluate.py",
+      "sourceSha256": "2c1a1a51592afcbe6391367a99e19e9345223070d0d5f5be15169c6cee08ad91",
+      "sourceBytes": 5878,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "55305f9beab27d5224ab7546a01f50c982d02484dd0d95d57a8ae642470ae514",
+      "releaseBytes": 5836
+    },
+    {
+      "path": "simulation_v3/run_case.py",
+      "source": "simulation_v3/run_case.py",
+      "sourceSha256": "c38f42a1aeec9eccfe68da7d0601dce9b52811bb00c64ea690ef82804297a24b",
+      "sourceBytes": 1225,
+      "changes": "",
+      "releaseSha256": "c38f42a1aeec9eccfe68da7d0601dce9b52811bb00c64ea690ef82804297a24b",
+      "releaseBytes": 1225
+    },
+    {
+      "path": "simulation_v3/test_frozen.py",
+      "source": "simulation_v3/test_frozen.py",
+      "sourceSha256": "5dbe2d5b2c9e9822cba7e800fbf972307b944ad1be80c8acac7053313efba73c",
+      "sourceBytes": 3326,
+      "changes": "",
+      "releaseSha256": "5dbe2d5b2c9e9822cba7e800fbf972307b944ad1be80c8acac7053313efba73c",
+      "releaseBytes": 3326
+    },
+    {
+      "path": "simulation_v3/export_fixtures.py",
+      "source": "simulation_v3/export_fixtures.py",
+      "sourceSha256": "799843040dbdb5ed526cbd99beac4041887604c37b39354f17420a3ea972ee65",
+      "sourceBytes": 2505,
+      "changes": "",
+      "releaseSha256": "799843040dbdb5ed526cbd99beac4041887604c37b39354f17420a3ea972ee65",
+      "releaseBytes": 2505
+    },
+    {
+      "path": "simulation_v3/audit_steps.py",
+      "source": "simulation_v3/audit_steps.py",
+      "sourceSha256": "edecb8d42e699c9857c2cd75c78d34b149b0358030482f8459ce9bd7025d85bb",
+      "sourceBytes": 1635,
+      "changes": "",
+      "releaseSha256": "edecb8d42e699c9857c2cd75c78d34b149b0358030482f8459ce9bd7025d85bb",
+      "releaseBytes": 1635
+    },
+    {
+      "path": "simulation_v3/finish_step_audit.py",
+      "source": "simulation_v3/finish_step_audit.py",
+      "sourceSha256": "17354f1a04b63f796f368f1ed6775e040e12d6f51152849baa752afc2ab30737",
+      "sourceBytes": 2462,
+      "changes": "",
+      "releaseSha256": "17354f1a04b63f796f368f1ed6775e040e12d6f51152849baa752afc2ab30737",
+      "releaseBytes": 2462
+    },
+    {
+      "path": "simulation_v3/summarize_evaluation.py",
+      "source": "simulation_v3/summarize_evaluation.py",
+      "sourceSha256": "7d5fe10baf44e324eb9ae6c9c58e24687f4191d248aa5571afbe037f50a2b12c",
+      "sourceBytes": 4694,
+      "changes": "",
+      "releaseSha256": "7d5fe10baf44e324eb9ae6c9c58e24687f4191d248aa5571afbe037f50a2b12c",
+      "releaseBytes": 4694
+    },
+    {
+      "path": "simulation_v3/config.json",
+      "source": "simulation_v3/config.json",
+      "sourceSha256": "94bee63efcc80ad76b8b9bc8743aed501cbf56b9c71afcb41e919987a0296385",
+      "sourceBytes": 7787,
+      "changes": "",
+      "releaseSha256": "94bee63efcc80ad76b8b9bc8743aed501cbf56b9c71afcb41e919987a0296385",
+      "releaseBytes": 7787
+    },
+    {
+      "path": "simulation_v3/world.xml",
+      "source": "simulation_v3/world.xml",
+      "sourceSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "sourceBytes": 3469,
+      "changes": "",
+      "releaseSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "releaseBytes": 3469
+    },
+    {
+      "path": "simulation_v3/manifest.json",
+      "source": "simulation_v3/manifest.json",
+      "sourceSha256": "d27ecd56f54c9fab3ff844ee21a8e9f4fd210a649fadc537c9ec8dc882f2adba",
+      "sourceBytes": 5933,
+      "changes": "",
+      "releaseSha256": "d27ecd56f54c9fab3ff844ee21a8e9f4fd210a649fadc537c9ec8dc882f2adba",
+      "releaseBytes": 5933
+    },
+    {
+      "path": "simulation_v3/results.json",
+      "source": "simulation_v3/results.json",
+      "sourceSha256": "ef9515b453c137a2e4f17b2f890f14e9167e279275313896d8e011b64a5bbeca",
+      "sourceBytes": 721446,
+      "changes": "",
+      "releaseSha256": "ef9515b453c137a2e4f17b2f890f14e9167e279275313896d8e011b64a5bbeca",
+      "releaseBytes": 721446
+    },
+    {
+      "path": "simulation_v3/evaluation-cases.json",
+      "source": "simulation_v3/evaluation-cases.json",
+      "sourceSha256": "f897d84a7fed1ab8270dbf001078cf734a942b05ae4aea049dc8c1c25c388387",
+      "sourceBytes": 103221,
+      "changes": "",
+      "releaseSha256": "f897d84a7fed1ab8270dbf001078cf734a942b05ae4aea049dc8c1c25c388387",
+      "releaseBytes": 103221
+    },
+    {
+      "path": "simulation_v3/evaluation-ledger.jsonl.gz",
+      "source": "simulation_v3/evaluation-ledger.jsonl",
+      "sourceSha256": "f8c0fd034b57df69ee1c0dd1799eeaeb83e8d5723e2a8a9cdb29c92af8d7d1f0",
+      "sourceBytes": 993881,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "374f8ab147c62d82b9bba5691a29d81bb078019f849609e25700b9a6112f7b44",
+      "releaseBytes": 207998
+    },
+    {
+      "path": "simulation_v3/evaluation-run-manifest.json",
+      "source": "simulation_v3/evaluation-run-manifest.json",
+      "sourceSha256": "5fe956be48f8593da032b296d319edf47e1728834f6b777f20085a274f475049",
+      "sourceBytes": 732,
+      "changes": "",
+      "releaseSha256": "5fe956be48f8593da032b296d319edf47e1728834f6b777f20085a274f475049",
+      "releaseBytes": 732
+    },
+    {
+      "path": "simulation_v3/audit.json",
+      "source": "simulation_v3/audit.json",
+      "sourceSha256": "a7772d42313a01703c000419ac9366ff7875104f8ae4974dc457ae60944290f3",
+      "sourceBytes": 24246,
+      "changes": "",
+      "releaseSha256": "a7772d42313a01703c000419ac9366ff7875104f8ae4974dc457ae60944290f3",
+      "releaseBytes": 24246
+    },
+    {
+      "path": "simulation_v3/failure-audit.json",
+      "source": "simulation_v3/failure-audit.json",
+      "sourceSha256": "4ffad546ef526c29fcee93bbb7ee4bb3d77fec9fb0e3f153590c846eaf8b4fb3",
+      "sourceBytes": 151891,
+      "changes": "",
+      "releaseSha256": "4ffad546ef526c29fcee93bbb7ee4bb3d77fec9fb0e3f153590c846eaf8b4fb3",
+      "releaseBytes": 151891
+    },
+    {
+      "path": "simulation_v3/step-audit.json",
+      "source": "simulation_v3/step-audit.json",
+      "sourceSha256": "7e4bd4422660a53b63f9ca52647b85766810f0024dc7fcf27dac49704d45e153",
+      "sourceBytes": 328464,
+      "changes": "",
+      "releaseSha256": "7e4bd4422660a53b63f9ca52647b85766810f0024dc7fcf27dac49704d45e153",
+      "releaseBytes": 328464
+    },
+    {
+      "path": "simulation_v3/step-comparison.json",
+      "source": "simulation_v3/step-comparison.json",
+      "sourceSha256": "e3135e787928d18fe3f26d0e2b07313980259ce834b5d785a315a33c6137ec5f",
+      "sourceBytes": 15531,
+      "changes": "",
+      "releaseSha256": "e3135e787928d18fe3f26d0e2b07313980259ce834b5d785a315a33c6137ec5f",
+      "releaseBytes": 15531
+    },
+    {
+      "path": "simulation_v3/native-checks.json",
+      "source": "simulation_v3/native-checks.json",
+      "sourceSha256": "a0c2ee28d027fb5505f1a019a91d66d440e9ccd1d86ae40257b0cda1787e55fe",
+      "sourceBytes": 1108,
+      "changes": "",
+      "releaseSha256": "a0c2ee28d027fb5505f1a019a91d66d440e9ccd1d86ae40257b0cda1787e55fe",
+      "releaseBytes": 1108
+    },
+    {
+      "path": "simulation_v3/predictor-fixtures.json",
+      "source": "simulation_v3/predictor-fixtures.json",
+      "sourceSha256": "dd30ad9aeeac068eb3160bebc09b40256df2364c8d3483f7f4c1a81eafe97ee0",
+      "sourceBytes": 21859,
+      "changes": "",
+      "releaseSha256": "dd30ad9aeeac068eb3160bebc09b40256df2364c8d3483f7f4c1a81eafe97ee0",
+      "releaseBytes": 21859
+    },
+    {
+      "path": "simulation_v3/predictor-parity.json",
+      "source": "simulation_v3/predictor-parity.json",
+      "sourceSha256": "f7e3b238dcb5ede215409d972a7bca643f7e48f9b33e2717c583c89af42d7ef4",
+      "sourceBytes": 5635,
+      "changes": "",
+      "releaseSha256": "f7e3b238dcb5ede215409d972a7bca643f7e48f9b33e2717c583c89af42d7ef4",
+      "releaseBytes": 5635
+    },
+    {
+      "path": "simulation_v3/frozen-predictor-calibration.json",
+      "source": "simulation_v3/frozen-predictor-calibration.json",
+      "sourceSha256": "56520d2f46943833dad082727c4609ce60e75eb123b1161a1f42e7e72b2ab963",
+      "sourceBytes": 16877,
+      "changes": "",
+      "releaseSha256": "56520d2f46943833dad082727c4609ce60e75eb123b1161a1f42e7e72b2ab963",
+      "releaseBytes": 16877
+    },
+    {
+      "path": "simulation_v4/unified_controller.py",
+      "source": "simulation_v4/unified_controller.py",
+      "sourceSha256": "af6afff428209280458c0e8e3b973c25cbf048009adc11882b26602979fa01e8",
+      "sourceBytes": 10721,
+      "changes": "",
+      "releaseSha256": "af6afff428209280458c0e8e3b973c25cbf048009adc11882b26602979fa01e8",
+      "releaseBytes": 10721
+    },
+    {
+      "path": "simulation_v4/train.py",
+      "source": "simulation_v4/train.py",
+      "sourceSha256": "e49448f319b2f0780a2700cd4b821b4d0308e99148b523798436c86dcb975e49",
+      "sourceBytes": 5726,
+      "changes": "",
+      "releaseSha256": "e49448f319b2f0780a2700cd4b821b4d0308e99148b523798436c86dcb975e49",
+      "releaseBytes": 5726
+    },
+    {
+      "path": "simulation_v4/run_case.py",
+      "source": "simulation_v4/run_case.py",
+      "sourceSha256": "bd8eea01385f0125846c3be0f1d1366dc9b77b6e4a2d676a6c7b97527a130fbb",
+      "sourceBytes": 1755,
+      "changes": "",
+      "releaseSha256": "bd8eea01385f0125846c3be0f1d1366dc9b77b6e4a2d676a6c7b97527a130fbb",
+      "releaseBytes": 1755
+    },
+    {
+      "path": "simulation_v4/test_controller.py",
+      "source": "simulation_v4/test_controller.py",
+      "sourceSha256": "d239b9ba64414fda1907559102171e7363e17324d1cb51c4e14c6693d2a1efbe",
+      "sourceBytes": 2404,
+      "changes": "",
+      "releaseSha256": "d239b9ba64414fda1907559102171e7363e17324d1cb51c4e14c6693d2a1efbe",
+      "releaseBytes": 2404
+    },
+    {
+      "path": "simulation_v4/evaluate.py",
+      "source": "simulation_v4/evaluate.py",
+      "sourceSha256": "86036e093df59eaf72452e7adc14b52fba1c582614d411b4742d0cc4fdeb7401",
+      "sourceBytes": 3256,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "8938864371ff7afedb90ef5fc11c2fb1c88e372c44e732dae5b4591c5e8fc25b",
+      "releaseBytes": 3176
+    },
+    {
+      "path": "simulation_v4/audit_steps.py",
+      "source": "simulation_v4/audit_steps.py",
+      "sourceSha256": "083a8b3f8c424e918d1f4f2dca7205b8cbc5b13b4a883396feb678f6f519648a",
+      "sourceBytes": 1528,
+      "changes": "",
+      "releaseSha256": "083a8b3f8c424e918d1f4f2dca7205b8cbc5b13b4a883396feb678f6f519648a",
+      "releaseBytes": 1528
+    },
+    {
+      "path": "simulation_v4/audit_followup.py",
+      "source": "simulation_v4/audit_followup.py",
+      "sourceSha256": "fd3dd31b42164cb8bfaec780ff30d724d2006c3363c1727902ff662bd4dd7112",
+      "sourceBytes": 1684,
+      "changes": "",
+      "releaseSha256": "fd3dd31b42164cb8bfaec780ff30d724d2006c3363c1727902ff662bd4dd7112",
+      "releaseBytes": 1684
+    },
+    {
+      "path": "simulation_v4/browser_fixtures.py",
+      "source": "simulation_v4/browser_fixtures.py",
+      "sourceSha256": "8a116548a6bd347c6b5c23e0d78c52740e89453cbb4a6cca4294689fbbd4e663",
+      "sourceBytes": 1221,
+      "changes": "",
+      "releaseSha256": "8a116548a6bd347c6b5c23e0d78c52740e89453cbb4a6cca4294689fbbd4e663",
+      "releaseBytes": 1221
+    },
+    {
+      "path": "simulation_v4/make_demos.py",
+      "source": "simulation_v4/make_demos.py",
+      "sourceSha256": "6b7b020be62fdf4d198a738f765a7934f492babeff85b01a20e53101f9996275",
+      "sourceBytes": 1154,
+      "changes": "",
+      "releaseSha256": "6b7b020be62fdf4d198a738f765a7934f492babeff85b01a20e53101f9996275",
+      "releaseBytes": 1154
+    },
+    {
+      "path": "simulation_v4/config.json",
+      "source": "simulation_v4/config.json",
+      "sourceSha256": "2a80ef48d1917dfc0c962f1e2c8309080134ddf8f82eabdfbb0f9e210bcdef21",
+      "sourceBytes": 4165,
+      "changes": "",
+      "releaseSha256": "2a80ef48d1917dfc0c962f1e2c8309080134ddf8f82eabdfbb0f9e210bcdef21",
+      "releaseBytes": 4165
+    },
+    {
+      "path": "simulation_v4/manifest.json",
+      "source": "simulation_v4/manifest.json",
+      "sourceSha256": "f134598b679e8a006cc2664f7679b7e9ae866487fdac9e9ae7657d153aea0517",
+      "sourceBytes": 39907,
+      "changes": "",
+      "releaseSha256": "f134598b679e8a006cc2664f7679b7e9ae866487fdac9e9ae7657d153aea0517",
+      "releaseBytes": 39907
+    },
+    {
+      "path": "simulation_v4/evaluation-freeze.json",
+      "source": "simulation_v4/evaluation-freeze.json",
+      "sourceSha256": "4fc5e9deaa78de644c8b1726cc1f39e5f22680e65c7909130c97e102c4e37664",
+      "sourceBytes": 36492,
+      "changes": "",
+      "releaseSha256": "4fc5e9deaa78de644c8b1726cc1f39e5f22680e65c7909130c97e102c4e37664",
+      "releaseBytes": 36492
+    },
+    {
+      "path": "simulation_v4/evaluation.json",
+      "source": "simulation_v4/evaluation.json",
+      "sourceSha256": "c5e197734a460b99499985191b1050c19c075c7fdf2d92bbc5ac52cf9cd35e92",
+      "sourceBytes": 423212,
+      "changes": "",
+      "releaseSha256": "c5e197734a460b99499985191b1050c19c075c7fdf2d92bbc5ac52cf9cd35e92",
+      "releaseBytes": 423212
+    },
+    {
+      "path": "simulation_v4/evaluation-ledger.jsonl.gz",
+      "source": "simulation_v4/evaluation-ledger.jsonl",
+      "sourceSha256": "cfbfe47c38a7d7e2f5ae4076eb724d5d5406a9024fb8141d4f8209635e8ba9ae",
+      "sourceBytes": 420601,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "57991e8c335ebe47663e4689d110392bd47f48ef9d66d4034377ca9015b138b9",
+      "releaseBytes": 117567
+    },
+    {
+      "path": "simulation_v4/browser-parity.json",
+      "source": "simulation_v4/browser-parity.json",
+      "sourceSha256": "c2e6e4d45d27ed4b3ccd8325dae96ddba3a51db0fe302cd4e3bc53ed066e59c1",
+      "sourceBytes": 1953,
+      "changes": "",
+      "releaseSha256": "c2e6e4d45d27ed4b3ccd8325dae96ddba3a51db0fe302cd4e3bc53ed066e59c1",
+      "releaseBytes": 1953
+    },
+    {
+      "path": "simulation_v4/step-audit.json",
+      "source": "simulation_v4/step-audit.json",
+      "sourceSha256": "ca755ac6932d5af4d2e5717baca6e550ffa183f96a1df1f03dd612e053e03c8f",
+      "sourceBytes": 126994,
+      "changes": "",
+      "releaseSha256": "ca755ac6932d5af4d2e5717baca6e550ffa183f96a1df1f03dd612e053e03c8f",
+      "releaseBytes": 126994
+    },
+    {
+      "path": "simulation_v4/step-audit-followup.json",
+      "source": "simulation_v4/step-audit-followup.json",
+      "sourceSha256": "8b36fe62145bd4c473fea26db2f223663a42c829c4827c3ecf6c89da58fb2f70",
+      "sourceBytes": 139589,
+      "changes": "",
+      "releaseSha256": "8b36fe62145bd4c473fea26db2f223663a42c829c4827c3ecf6c89da58fb2f70",
+      "releaseBytes": 139589
+    },
+    {
+      "path": "simulation_v4/timing-benchmark.json",
+      "source": "simulation_v4/timing-benchmark.json",
+      "sourceSha256": "105f293b893e13538fa8ceaf532b6f72f81b23173d6610a7d4a9fa7927ea8ae9",
+      "sourceBytes": 1221,
+      "changes": "",
+      "releaseSha256": "105f293b893e13538fa8ceaf532b6f72f81b23173d6610a7d4a9fa7927ea8ae9",
+      "releaseBytes": 1221
+    },
+    {
+      "path": "simulation_v4/training.log",
+      "source": "simulation_v4/training.log",
+      "sourceSha256": "d2935c50ca69f0ac13ef389a92120b9e72cb899beab9ee14f23028baca58aacc",
+      "sourceBytes": 15154,
+      "changes": "",
+      "releaseSha256": "d2935c50ca69f0ac13ef389a92120b9e72cb899beab9ee14f23028baca58aacc",
+      "releaseBytes": 15154
+    },
+    {
+      "path": "simulation_v4/evaluation.log",
+      "source": "simulation_v4/evaluation.log",
+      "sourceSha256": "295a254331a644ee5ed9d37bfb71a894120380927af11ebf65046a6920d818b4",
+      "sourceBytes": 2557,
+      "changes": "",
+      "releaseSha256": "295a254331a644ee5ed9d37bfb71a894120380927af11ebf65046a6920d818b4",
+      "releaseBytes": 2557
+    },
+    {
+      "path": "simulation_v4/demos.json",
+      "source": "simulation_v4/demos.json",
+      "sourceSha256": "0eac4eddf954f3196e24df27a70357acfa504c70234911b006b8a4a27bc2bfc2",
+      "sourceBytes": 26558,
+      "changes": "",
+      "releaseSha256": "0eac4eddf954f3196e24df27a70357acfa504c70234911b006b8a4a27bc2bfc2",
+      "releaseBytes": 26558
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-005.json",
+      "source": "simulation_v4/campaign/checkpoint-005.json",
+      "sourceSha256": "42fa7f17fc30bd44276b77c11f2511b22a79705d24c7832bbf5fe8f1f2a2884b",
+      "sourceBytes": 19199,
+      "changes": "",
+      "releaseSha256": "42fa7f17fc30bd44276b77c11f2511b22a79705d24c7832bbf5fe8f1f2a2884b",
+      "releaseBytes": 19199
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-010.json",
+      "source": "simulation_v4/campaign/checkpoint-010.json",
+      "sourceSha256": "1b87033a6e6630a2876afcd4839f835229ae8a9c0937d691e026f1c651ac05cc",
+      "sourceBytes": 19210,
+      "changes": "",
+      "releaseSha256": "1b87033a6e6630a2876afcd4839f835229ae8a9c0937d691e026f1c651ac05cc",
+      "releaseBytes": 19210
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-015.json",
+      "source": "simulation_v4/campaign/checkpoint-015.json",
+      "sourceSha256": "1fbf97a772b8c1bed86e99d134f2afac6eeb3db5326f7c82d10c492901adb4f5",
+      "sourceBytes": 19210,
+      "changes": "",
+      "releaseSha256": "1fbf97a772b8c1bed86e99d134f2afac6eeb3db5326f7c82d10c492901adb4f5",
+      "releaseBytes": 19210
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-020.json",
+      "source": "simulation_v4/campaign/checkpoint-020.json",
+      "sourceSha256": "cfd5ea708f18db0a226710e15b9eff81bd8c7ce49e0136c9edf01132411d86f9",
+      "sourceBytes": 19210,
+      "changes": "",
+      "releaseSha256": "cfd5ea708f18db0a226710e15b9eff81bd8c7ce49e0136c9edf01132411d86f9",
+      "releaseBytes": 19210
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-025.json",
+      "source": "simulation_v4/campaign/checkpoint-025.json",
+      "sourceSha256": "6f4e5c25dd8d72288970b6a7a9eee778d67e697a278f0d3826421246f6ccddc2",
+      "sourceBytes": 19210,
+      "changes": "",
+      "releaseSha256": "6f4e5c25dd8d72288970b6a7a9eee778d67e697a278f0d3826421246f6ccddc2",
+      "releaseBytes": 19210
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-030.json",
+      "source": "simulation_v4/campaign/checkpoint-030.json",
+      "sourceSha256": "597d3d2c4bff12a33c4c2bbae0e354c4f1980656964a8b6cad0e7814086c539a",
+      "sourceBytes": 19210,
+      "changes": "",
+      "releaseSha256": "597d3d2c4bff12a33c4c2bbae0e354c4f1980656964a8b6cad0e7814086c539a",
+      "releaseBytes": 19210
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-035.json",
+      "source": "simulation_v4/campaign/checkpoint-035.json",
+      "sourceSha256": "deeb2a316c0ef06f5e74ead11b55d754479df318e1b4d6731a7bd6834b5c8f9c",
+      "sourceBytes": 19204,
+      "changes": "",
+      "releaseSha256": "deeb2a316c0ef06f5e74ead11b55d754479df318e1b4d6731a7bd6834b5c8f9c",
+      "releaseBytes": 19204
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-040.json",
+      "source": "simulation_v4/campaign/checkpoint-040.json",
+      "sourceSha256": "9933c6f0e278f5ba63c062ca1efc8569714bd08d2b9b22483bae9700fd930065",
+      "sourceBytes": 19239,
+      "changes": "",
+      "releaseSha256": "9933c6f0e278f5ba63c062ca1efc8569714bd08d2b9b22483bae9700fd930065",
+      "releaseBytes": 19239
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-045.json",
+      "source": "simulation_v4/campaign/checkpoint-045.json",
+      "sourceSha256": "fd4fca74ee72ebc6278cf6ac39ab040c64202bd54b68eed379a25e1f782e1cc4",
+      "sourceBytes": 19239,
+      "changes": "",
+      "releaseSha256": "fd4fca74ee72ebc6278cf6ac39ab040c64202bd54b68eed379a25e1f782e1cc4",
+      "releaseBytes": 19239
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-050.json",
+      "source": "simulation_v4/campaign/checkpoint-050.json",
+      "sourceSha256": "f2a86a8fc9dc8c998cf3661b43758c2c053757d7101fc2b8ff81508cf8230bf3",
+      "sourceBytes": 19239,
+      "changes": "",
+      "releaseSha256": "f2a86a8fc9dc8c998cf3661b43758c2c053757d7101fc2b8ff81508cf8230bf3",
+      "releaseBytes": 19239
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-055.json",
+      "source": "simulation_v4/campaign/checkpoint-055.json",
+      "sourceSha256": "a24c4273198365fcff6deac925312957fca7d0eb8a7bfa767422a222ee0102d3",
+      "sourceBytes": 19239,
+      "changes": "",
+      "releaseSha256": "a24c4273198365fcff6deac925312957fca7d0eb8a7bfa767422a222ee0102d3",
+      "releaseBytes": 19239
+    },
+    {
+      "path": "simulation_v4/campaign/checkpoint-060.json",
+      "source": "simulation_v4/campaign/checkpoint-060.json",
+      "sourceSha256": "5bb50a2af7a9b152495b91f6dfebb73f90f4f4a765738d16e03787c3f33df340",
+      "sourceBytes": 19239,
+      "changes": "",
+      "releaseSha256": "5bb50a2af7a9b152495b91f6dfebb73f90f4f4a765738d16e03787c3f33df340",
+      "releaseBytes": 19239
+    },
+    {
+      "path": "simulation_v4/campaign/development-cases.json",
+      "source": "simulation_v4/campaign/development-cases.json",
+      "sourceSha256": "bf06629980d500d1ad3224b78976e205b03b292bfe660d02c1775d809af08b2e",
+      "sourceBytes": 4918,
+      "changes": "",
+      "releaseSha256": "bf06629980d500d1ad3224b78976e205b03b292bfe660d02c1775d809af08b2e",
+      "releaseBytes": 4918
+    },
+    {
+      "path": "simulation_v4/campaign/results.json",
+      "source": "simulation_v4/campaign/results.json",
+      "sourceSha256": "b13b6fc05ce89d0601e33e01a2344eade05ba7611442078f5215269b6f855016",
+      "sourceBytes": 73906,
+      "changes": "",
+      "releaseSha256": "b13b6fc05ce89d0601e33e01a2344eade05ba7611442078f5215269b6f855016",
+      "releaseBytes": 73906
+    },
+    {
+      "path": "simulation_v4/campaign/source.json",
+      "source": "simulation_v4/campaign/source.json",
+      "sourceSha256": "2ff410eee9a6f0b1b9acc767a9f7e5c55aa42b61a4c6c85e73809db8dd0b2820",
+      "sourceBytes": 171,
+      "changes": "",
+      "releaseSha256": "2ff410eee9a6f0b1b9acc767a9f7e5c55aa42b61a4c6c85e73809db8dd0b2820",
+      "releaseBytes": 171
+    },
+    {
+      "path": "simulation_v4/campaign/training-ledger.jsonl.gz",
+      "source": "simulation_v4/campaign/training-ledger.jsonl",
+      "sourceSha256": "e1bf6f33baf86f602de6f059106b5903ddb5897cc4123fe86a222b93e5033ae6",
+      "sourceBytes": 10703931,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "582d7d924da2e5c21d045b07a3718b92459d5eef57d72907875d2bea29f73894",
+      "releaseBytes": 1906969
+    },
+    {
+      "path": "simulation_v4/demos/inverted-final.json.gz",
+      "source": "simulation_v4/demos/inverted-final.json.gz",
+      "sourceSha256": "a0f1c9415ac55fd801978b62349488fc4dd032988259180f435b1357f2998f25",
+      "sourceBytes": 180896,
+      "changes": "",
+      "releaseSha256": "a0f1c9415ac55fd801978b62349488fc4dd032988259180f435b1357f2998f25",
+      "releaseBytes": 180896
+    },
+    {
+      "path": "simulation_v4/demos/inverted-initial.json.gz",
+      "source": "simulation_v4/demos/inverted-initial.json.gz",
+      "sourceSha256": "22b4f575ccdf17ddb7cb12314683979525102edfe9a6470e31605e4f5ed4b9bc",
+      "sourceBytes": 195712,
+      "changes": "",
+      "releaseSha256": "22b4f575ccdf17ddb7cb12314683979525102edfe9a6470e31605e4f5ed4b9bc",
+      "releaseBytes": 195712
+    },
+    {
+      "path": "simulation_v4/demos/inverted-reference.json.gz",
+      "source": "simulation_v4/demos/inverted-reference.json.gz",
+      "sourceSha256": "a5dc07c736f2b46e0749e9468ea24c7a84154872c8d091e51626a1659764c62e",
+      "sourceBytes": 157239,
+      "changes": "",
+      "releaseSha256": "a5dc07c736f2b46e0749e9468ea24c7a84154872c8d091e51626a1659764c62e",
+      "releaseBytes": 157239
+    },
+    {
+      "path": "simulation_v4/demos/low-boundary-final.json.gz",
+      "source": "simulation_v4/demos/low-boundary-final.json.gz",
+      "sourceSha256": "f3ad68de6a60d2dfcdc9859c8aec58b380e53024a3e822becffb53cbe1884c94",
+      "sourceBytes": 26780,
+      "changes": "",
+      "releaseSha256": "f3ad68de6a60d2dfcdc9859c8aec58b380e53024a3e822becffb53cbe1884c94",
+      "releaseBytes": 26780
+    },
+    {
+      "path": "simulation_v4/demos/low-boundary-initial.json.gz",
+      "source": "simulation_v4/demos/low-boundary-initial.json.gz",
+      "sourceSha256": "9557237dbdbe1c8b75740135c859822aff8b683fe59e24f824be22a44e31cb1a",
+      "sourceBytes": 25882,
+      "changes": "",
+      "releaseSha256": "9557237dbdbe1c8b75740135c859822aff8b683fe59e24f824be22a44e31cb1a",
+      "releaseBytes": 25882
+    },
+    {
+      "path": "simulation_v4/demos/low-boundary-reference.json.gz",
+      "source": "simulation_v4/demos/low-boundary-reference.json.gz",
+      "sourceSha256": "75541a4ef53ba465994af775b3486bb6d4f0cf9b1c523858a157275805ece0a1",
+      "sourceBytes": 26950,
+      "changes": "",
+      "releaseSha256": "75541a4ef53ba465994af775b3486bb6d4f0cf9b1c523858a157275805ece0a1",
+      "releaseBytes": 26950
+    },
+    {
+      "path": "simulation_v4/demos/moving-spin-final.json.gz",
+      "source": "simulation_v4/demos/moving-spin-final.json.gz",
+      "sourceSha256": "3c406cbd326a61b6783f71b9917429c9166f6b47e7e1add6cfee2c033c132165",
+      "sourceBytes": 213033,
+      "changes": "",
+      "releaseSha256": "3c406cbd326a61b6783f71b9917429c9166f6b47e7e1add6cfee2c033c132165",
+      "releaseBytes": 213033
+    },
+    {
+      "path": "simulation_v4/demos/moving-spin-initial.json.gz",
+      "source": "simulation_v4/demos/moving-spin-initial.json.gz",
+      "sourceSha256": "6d73d54bd3bf5f81133ee7b40139336112a5c09a999cd611a1368b1cca17e4df",
+      "sourceBytes": 176607,
+      "changes": "",
+      "releaseSha256": "6d73d54bd3bf5f81133ee7b40139336112a5c09a999cd611a1368b1cca17e4df",
+      "releaseBytes": 176607
+    },
+    {
+      "path": "simulation_v4/demos/moving-spin-reference.json.gz",
+      "source": "simulation_v4/demos/moving-spin-reference.json.gz",
+      "sourceSha256": "9b52c8d4995f136fb3ef1530c8be423661f6e65fa3a88e90849e5c3cd318dbbd",
+      "sourceBytes": 209387,
+      "changes": "",
+      "releaseSha256": "9b52c8d4995f136fb3ef1530c8be423661f6e65fa3a88e90849e5c3cd318dbbd",
+      "releaseBytes": 209387
+    },
+    {
+      "path": "simulation_v4/demos/oblique-final.json.gz",
+      "source": "simulation_v4/demos/oblique-final.json.gz",
+      "sourceSha256": "8e90bdaf7dc8ab6d7f6f8ce4d08d16205cf61dc62dc8c35d5ba1657025cfe9ed",
+      "sourceBytes": 163231,
+      "changes": "",
+      "releaseSha256": "8e90bdaf7dc8ab6d7f6f8ce4d08d16205cf61dc62dc8c35d5ba1657025cfe9ed",
+      "releaseBytes": 163231
+    },
+    {
+      "path": "simulation_v4/demos/oblique-initial.json.gz",
+      "source": "simulation_v4/demos/oblique-initial.json.gz",
+      "sourceSha256": "6b6c6c4efadd775e0c2c30b7f98472877b8ea25a61e03b1dca4ab83fa3d9469c",
+      "sourceBytes": 183403,
+      "changes": "",
+      "releaseSha256": "6b6c6c4efadd775e0c2c30b7f98472877b8ea25a61e03b1dca4ab83fa3d9469c",
+      "releaseBytes": 183403
+    },
+    {
+      "path": "simulation_v4/demos/oblique-reference.json.gz",
+      "source": "simulation_v4/demos/oblique-reference.json.gz",
+      "sourceSha256": "57713cc65b3b01a2b385caadb7c8826ed1da186f6d222a75cc2ae760ffb798c4",
+      "sourceBytes": 182299,
+      "changes": "",
+      "releaseSha256": "57713cc65b3b01a2b385caadb7c8826ed1da186f6d222a75cc2ae760ffb798c4",
+      "releaseBytes": 182299
+    },
+    {
+      "path": "simulation_v4/demos/oblique-spin-final.json.gz",
+      "source": "simulation_v4/demos/oblique-spin-final.json.gz",
+      "sourceSha256": "d6821cf60ed9040c7b22bca429685c73d102d1efef1c9f1c307f7a872c87fe5a",
+      "sourceBytes": 214549,
+      "changes": "",
+      "releaseSha256": "d6821cf60ed9040c7b22bca429685c73d102d1efef1c9f1c307f7a872c87fe5a",
+      "releaseBytes": 214549
+    },
+    {
+      "path": "simulation_v4/demos/oblique-spin-initial.json.gz",
+      "source": "simulation_v4/demos/oblique-spin-initial.json.gz",
+      "sourceSha256": "a258f70ac137b0de152c1ed0170a0b5f52432500045240f43b9842d20ae7f7b1",
+      "sourceBytes": 182561,
+      "changes": "",
+      "releaseSha256": "a258f70ac137b0de152c1ed0170a0b5f52432500045240f43b9842d20ae7f7b1",
+      "releaseBytes": 182561
+    },
+    {
+      "path": "simulation_v4/demos/oblique-spin-reference.json.gz",
+      "source": "simulation_v4/demos/oblique-spin-reference.json.gz",
+      "sourceSha256": "36d2d859a740fb4d36b717280c09f9064c09ece4018eb60d148374b65b1d1e2e",
+      "sourceBytes": 275557,
+      "changes": "",
+      "releaseSha256": "36d2d859a740fb4d36b717280c09f9064c09ece4018eb60d148374b65b1d1e2e",
+      "releaseBytes": 275557
+    },
+    {
+      "path": "simulation_v4/demos/stationary-spin-final.json.gz",
+      "source": "simulation_v4/demos/stationary-spin-final.json.gz",
+      "sourceSha256": "a087a167ce52655bdc7ba53b7f6d36040b9c38e68c32cc11abfcbf6ba7877567",
+      "sourceBytes": 209987,
+      "changes": "",
+      "releaseSha256": "a087a167ce52655bdc7ba53b7f6d36040b9c38e68c32cc11abfcbf6ba7877567",
+      "releaseBytes": 209987
+    },
+    {
+      "path": "simulation_v4/demos/stationary-spin-initial.json.gz",
+      "source": "simulation_v4/demos/stationary-spin-initial.json.gz",
+      "sourceSha256": "e7402a89da3ff5b5ce871703eaf93bcea578e7c8bea733383809bda6252a8987",
+      "sourceBytes": 180817,
+      "changes": "",
+      "releaseSha256": "e7402a89da3ff5b5ce871703eaf93bcea578e7c8bea733383809bda6252a8987",
+      "releaseBytes": 180817
+    },
+    {
+      "path": "simulation_v4/demos/stationary-spin-reference.json.gz",
+      "source": "simulation_v4/demos/stationary-spin-reference.json.gz",
+      "sourceSha256": "434d484e855daf93b4c7ae3a5abe730ab6fbf56d470d7114ec34dc59315d0273",
+      "sourceBytes": 218714,
+      "changes": "",
+      "releaseSha256": "434d484e855daf93b4c7ae3a5abe730ab6fbf56d470d7114ec34dc59315d0273",
+      "releaseBytes": 218714
+    },
+    {
+      "path": "sandbox/index.html",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving.html",
+      "sourceSha256": "8a80acfbb20c5580c04ddd6542266e5a9ebb2066e146e3d3ba8210250d505396",
+      "sourceBytes": 3710,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "6176343c4c6368986077abf46b5b5d772a4332b7d4e450833b22e4f9f668ad14",
+      "releaseBytes": 3626
+    },
+    {
+      "path": "sandbox/driving.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving.mjs",
+      "sourceSha256": "e3f3c345c1e9b83f33f09059ed0a3d7e190900d2e1fe654e83c8c44aba9ebb20",
+      "sourceBytes": 12181,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "b48225d9d1e891773338bfb99e6fa25f8423da11bf29df03d84dce2dbb1e0c79",
+      "releaseBytes": 12191
+    },
+    {
+      "path": "sandbox/driving-input.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-input.mjs",
+      "sourceSha256": "2fb93b72f6afdd4955c000e1c0c1c2755f097f53e489093dfdea782e1214342a",
+      "sourceBytes": 2690,
+      "changes": "",
+      "releaseSha256": "2fb93b72f6afdd4955c000e1c0c1c2755f097f53e489093dfdea782e1214342a",
+      "releaseBytes": 2690
+    },
+    {
+      "path": "sandbox/driving-camera.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-camera.mjs",
+      "sourceSha256": "3d369a334faac75fa9d98775e659278c0a1a9d43c20d7680a96e590e6998b6ae",
+      "sourceBytes": 2383,
+      "changes": "",
+      "releaseSha256": "3d369a334faac75fa9d98775e659278c0a1a9d43c20d7680a96e590e6998b6ae",
+      "releaseBytes": 2383
+    },
+    {
+      "path": "sandbox/driving-audio.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-audio.mjs",
+      "sourceSha256": "56ef7020ad2f88479b3aa064bd05bcd047350638967befbf8185f01000e0b36d",
+      "sourceBytes": 2845,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "c9c7e33e1ecf53690a8479fc0cbb156a7662e0498f3da575d3e959ef7f45f933",
+      "releaseBytes": 2844
+    },
+    {
+      "path": "sandbox/driving-model.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-model.mjs",
+      "sourceSha256": "ecc7b367fcc18fc1165603bf534d8ce734e93c985bb4d61726be6742a5d00ccb",
+      "sourceBytes": 1765,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "7d6dffe7e93c46adf70467df2a8d0876ba53ac4c60cf7a5c34851df717a9c6a3",
+      "releaseBytes": 1766
+    },
+    {
+      "path": "sandbox/driving-core.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-core.mjs",
+      "sourceSha256": "792fc314e9e78538d73c47ca9b6441e8a8dab947bc2baea0509a36d50e5a538d",
+      "sourceBytes": 12741,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "aeb443f2dc15df875f7755d0bed7c48a729de73e44c00904d2a0c2bb3297947c",
+      "releaseBytes": 12743
+    },
+    {
+      "path": "sandbox/driving-powertrain.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-powertrain.mjs",
+      "sourceSha256": "62098b1216f6115b5ad43bf4c649730217a53136086f477be0d78bae97783d10",
+      "sourceBytes": 2369,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "a91c8b42245da6d08a9c8012a0d26fe0b6b4b7e6c692eae6540b2b3cde9d976d",
+      "releaseBytes": 2362
+    },
+    {
+      "path": "sandbox/driving-terrain.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-terrain.mjs",
+      "sourceSha256": "ab60ae82766803fa5305704f88364abfa7ca78d4c88cd9887b357f973a7248c9",
+      "sourceBytes": 4066,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "d7d9af7991da28b8997cc5e6bbcd741bac1837da92ddc3fc8267aff393652286",
+      "releaseBytes": 4067
+    },
+    {
+      "path": "sandbox/driving-obstacles.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-obstacles.mjs",
+      "sourceSha256": "fb283b59fc108a797e525397674aa8848d95d11b3e755b16527c36009b091c2d",
+      "sourceBytes": 3093,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "b93cda97ecd2ddc53f7447ce1324b9754be184c1a4664a19f44666d8c6ec19e3",
+      "releaseBytes": 2457
+    },
+    {
+      "path": "sandbox/driving-worker.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-worker.mjs",
+      "sourceSha256": "cc3e7a772b2b9d5018eb453484c062458dcab648f54beccc0435ff643bd6911c",
+      "sourceBytes": 1362,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "706f913c2d7b9887276d02acf3e036a58141b23e60dcbcb8a3d5d22d119bdab5",
+      "releaseBytes": 1363
+    },
+    {
+      "path": "sandbox/driving-effects.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving-effects.mjs",
+      "sourceSha256": "03e3998afba0cfdd70a2767d87dcc8c93d464e19fa04ae91967c1833481f3b04",
+      "sourceBytes": 4572,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "5997e2d2b5d333291637390db86366b648222a8d475703f750ec8bdce4a99f18",
+      "releaseBytes": 3811
+    },
+    {
+      "path": "sandbox/parked-vehicles.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/parked-vehicles.mjs",
+      "sourceSha256": "c7143081f955fc664cffd35107d85e53ff36830853d3d6b7976ada87fc1d917d",
+      "sourceBytes": 6939,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "624534ff0eb6e6bff6829a3d33b27b8c5f5dc2df251f8e943f484204af9ad608",
+      "releaseBytes": 4331
+    },
+    {
+      "path": "sandbox/lab-world.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/lab-world.mjs",
+      "sourceSha256": "7aebba617f5d5886f50edfdce85b4d839a35384bf22de4ef47b027b756525a7a",
+      "sourceBytes": 13134,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "a6f387254a84f6bb50733d9e8974aa3be895f909f6aa5aa712dfc18f4aa428f7",
+      "releaseBytes": 13136
+    },
+    {
+      "path": "sandbox/jet-smoke.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/jet-smoke.mjs",
+      "sourceSha256": "2dc37377b8ab94b27abb20919c9c9ceb528caee5b537fa63c6841b2b71123357",
+      "sourceBytes": 3907,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "3b34adfae7ed608092f2a371a404e0b3e5ebce92212b11cb2e39e4981cd692bb",
+      "releaseBytes": 3908
+    },
+    {
+      "path": "sandbox/state-guides.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/state-guides.mjs",
+      "sourceSha256": "2fecd595f206617d3db2ff4e38c515ec5fe741165a7aa1aa89082d1d66f167e0",
+      "sourceBytes": 6645,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "4ae79496ffbe1040d42e1cb7506255b48d0258e3d9bfc0a2563e2e569bf0f634",
+      "releaseBytes": 6646
+    },
+    {
+      "path": "sandbox/night-range.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/night-range.mjs",
+      "sourceSha256": "489d707e514cdd67bcb55b30aa8b8fa472dc8340672f1753888682cb18d4d676",
+      "sourceBytes": 9628,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "43776df9979d91275c7761e4729e5612d808175e0edda695bc08db4ace48cfb4",
+      "releaseBytes": 9629
+    },
+    {
+      "path": "sandbox/vehicle-model.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/meshy-model.mjs",
+      "sourceSha256": "cc3462fa0b78fd943b95ae1f27ee1e60030bed4fdbd4f21f0e619f910470707c",
+      "sourceBytes": 1916,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "974fcfd8ade88533b6cfe1fd00002b305bbbcd55d33d20b96586bcd3c7b78627",
+      "releaseBytes": 2004
+    },
+    {
+      "path": "sandbox/style.css",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/style.css",
+      "sourceSha256": "cd505de37cbd01743ee3328e396ea3a1d1a82dc7ff09335a79e0d56c7463bdea",
+      "sourceBytes": 11210,
+      "changes": "",
+      "releaseSha256": "cd505de37cbd01743ee3328e396ea3a1d1a82dc7ff09335a79e0d56c7463bdea",
+      "releaseBytes": 11210
+    },
+    {
+      "path": "sandbox/lab.css",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/lab.css",
+      "sourceSha256": "09f9ec9c903dac607dc8e0f86c9755c31ba955b66879442a1d6ae391e7b0fca3",
+      "sourceBytes": 7892,
+      "changes": "",
+      "releaseSha256": "09f9ec9c903dac607dc8e0f86c9755c31ba955b66879442a1d6ae391e7b0fca3",
+      "releaseBytes": 7892
+    },
+    {
+      "path": "sandbox/site-nav.css",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/site-nav.css",
+      "sourceSha256": "e0022bc25b213d51d1f27ff5ae3e2df797b9e88689ad6bcb21983539c45fccc2",
+      "sourceBytes": 2071,
+      "changes": "",
+      "releaseSha256": "e0022bc25b213d51d1f27ff5ae3e2df797b9e88689ad6bcb21983539c45fccc2",
+      "releaseBytes": 2071
+    },
+    {
+      "path": "sandbox/driving.css",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/driving.css",
+      "sourceSha256": "3bb9fbf284717424bebc85c3b6e0d55e48b4e648421b933d5399b9dfb93c5c86",
+      "sourceBytes": 7722,
+      "changes": "",
+      "releaseSha256": "3bb9fbf284717424bebc85c3b6e0d55e48b4e648421b933d5399b9dfb93c5c86",
+      "releaseBytes": 7722
+    },
+    {
+      "path": "simulation_v2/browser-runtime.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v2/browser-runtime.mjs",
+      "sourceSha256": "552142cab13027b360f66022257e454bb0441afd2f6ebb8a1d995135ce16723e",
+      "sourceBytes": 18338,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "18dc618e80ac6d99d46b0a2f6e150409205410fb6b07024da16f1584bd83a23a",
+      "releaseBytes": 18309
+    },
+    {
+      "path": "simulation_v3/browser-runtime.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v3/browser-runtime.mjs",
+      "sourceSha256": "2a0d2618bed54626d9787190f040ca7b3c8118a66c07b4738cc48be613bfe450",
+      "sourceBytes": 18404,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "df3c48c4ab6919c599b8d214a2064bc006a3f5c026df35819d35da15d2b5e7ce",
+      "releaseBytes": 18375
+    },
+    {
+      "path": "simulation_v3/controller.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v3/controller.mjs",
+      "sourceSha256": "89c0171dfac2dbb01f2d39278f304d3b260f7e4e762f96c2c741de008374f799",
+      "sourceBytes": 10695,
+      "changes": "",
+      "releaseSha256": "89c0171dfac2dbb01f2d39278f304d3b260f7e4e762f96c2c741de008374f799",
+      "releaseBytes": 10695
+    },
+    {
+      "path": "simulation_v3/landing-predictor.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v3/landing-predictor.mjs",
+      "sourceSha256": "d2cc5be9df30a0ba70ca23b9958672f9b7e942ea8607609c87ab9f8615037b37",
+      "sourceBytes": 3076,
+      "changes": "",
+      "releaseSha256": "d2cc5be9df30a0ba70ca23b9958672f9b7e942ea8607609c87ab9f8615037b37",
+      "releaseBytes": 3076
+    },
+    {
+      "path": "simulation_v3/math.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v3/math.mjs",
+      "sourceSha256": "b781466814d1200b7db3a702312d86c843674874b6028d034b4439abc571dab1",
+      "sourceBytes": 1286,
+      "changes": "",
+      "releaseSha256": "b781466814d1200b7db3a702312d86c843674874b6028d034b4439abc571dab1",
+      "releaseBytes": 1286
+    },
+    {
+      "path": "simulation_v4/browser-runtime.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v4/browser-runtime.mjs",
+      "sourceSha256": "4614572219030da4a0f38458e54d276d68e4ea92c8821c8c18961e39c4346c75",
+      "sourceBytes": 21405,
+      "changes": "",
+      "releaseSha256": "4614572219030da4a0f38458e54d276d68e4ea92c8821c8c18961e39c4346c75",
+      "releaseBytes": 21405
+    },
+    {
+      "path": "simulation_v4/controller.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v4/controller.mjs",
+      "sourceSha256": "f1732e7c9275e91219f6af6099f64b377de89e6617f30a90052d52b8abc0d677",
+      "sourceBytes": 9967,
+      "changes": "",
+      "releaseSha256": "f1732e7c9275e91219f6af6099f64b377de89e6617f30a90052d52b8abc0d677",
+      "releaseBytes": 9967
+    },
+    {
+      "path": "simulation_v4/browser-fixtures.json.gz",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v4/browser-fixtures.json.gz",
+      "sourceSha256": "150487ad9a4b91788d26774f12b654f564389159d0b378b535d7d7b0d14f0dea",
+      "sourceBytes": 4028008,
+      "changes": "",
+      "releaseSha256": "150487ad9a4b91788d26774f12b654f564389159d0b378b535d7d7b0d14f0dea",
+      "releaseBytes": 4028008
+    },
+    {
+      "path": "simulation_v4/test-browser.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v4/test-browser.mjs",
+      "sourceSha256": "05ae53c3b7503f436533cae10861ce9808fed9ea148deb7910e479540116bb4b",
+      "sourceBytes": 2924,
+      "changes": "",
+      "releaseSha256": "05ae53c3b7503f436533cae10861ce9808fed9ea148deb7910e479540116bb4b",
+      "releaseBytes": 2924
+    },
+    {
+      "path": "simulation_v4/benchmark-timing.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v4/benchmark-timing.mjs",
+      "sourceSha256": "1146c07e680c7a3e26d0565394a58f88839a0932cd39a5773a04cc2a6057a9a3",
+      "sourceBytes": 1766,
+      "changes": "",
+      "releaseSha256": "1146c07e680c7a3e26d0565394a58f88839a0932cd39a5773a04cc2a6057a9a3",
+      "releaseBytes": 1766
+    },
+    {
+      "path": "simulation_v3/browser-fixtures.json.gz",
+      "source": "simulation_v3/browser-fixtures.json",
+      "sourceSha256": "38971413a25463d38e842d1c33eaddbfcd1dd89bb4ed44c28809d7786fdda32c",
+      "sourceBytes": 11975524,
+      "changes": "Lossless gzip; original hash is recorded in records.json.",
+      "releaseSha256": "52f3e6e163e0730a74f45a18d85144137b1ac78b2fbf9af7c33d80d51e442502",
+      "releaseBytes": 2370379
+    },
+    {
+      "path": "simulation_v3/test-controller.mjs",
+      "source": "simulation_v3/test-controller.mjs",
+      "sourceSha256": "e2a9e33a9ab57b6b16e1b1c378745f6980301668c5bd32cb4a85a2a3de3f1a1d",
+      "sourceBytes": 3738,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "9a877841c99f54c8466c7931c181eca81e45a4dd335162bd9de4182ec54a91c9",
+      "releaseBytes": 3744
+    },
+    {
+      "path": "simulation_v3/test-predictor.mjs",
+      "source": "simulation_v3/test-predictor.mjs",
+      "sourceSha256": "01eddafb0b9b976df4d1a83f656057694b5818b01d40a47c652733e3294ffbf9",
+      "sourceBytes": 1409,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "573f52f69dd3aa6c8fb5e7dc778d4c6072eddb4d2ced5040b3e376f6beebe462",
+      "releaseBytes": 1415
+    },
+    {
+      "path": "tests/test-driving-input.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-input.mjs",
+      "sourceSha256": "13e305628d3db5cbf38b7798a303e5f869b9793a48f3da65a6979c3e2af3fac6",
+      "sourceBytes": 4566,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "dad78d6bea9cc62ae3857fb26ac5111185a2f43328601ae43aaacca0137147da",
+      "releaseBytes": 4576
+    },
+    {
+      "path": "tests/test-driving-controls.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-controls.mjs",
+      "sourceSha256": "5683448c73c876ea53f35169154cdaf4f50edb9bfa51cf502104e7b4c0ad7a05",
+      "sourceBytes": 4524,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "0f0d14afbfa5f5698e938842c8130ec1d6d5b58ab4a417b75232d91562ac75f7",
+      "releaseBytes": 4512
+    },
+    {
+      "path": "tests/test-driving-dynamics.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-dynamics.mjs",
+      "sourceSha256": "945f17683208af4f03c890d246006ebb7d9e1cfbb0437b5f21b54dacf3d2baba",
+      "sourceBytes": 4674,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "f1d42d030bc5b03134dcd9b1ebe731411dcd8467bc7d15cf9e93a0c31a3a3e83",
+      "releaseBytes": 4674
+    },
+    {
+      "path": "tests/test-driving-follow.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-follow.mjs",
+      "sourceSha256": "c24c992fdcca6cb415adaabd1a5cb9e1c89bfc0ac0cd9ae25ac2c86d75895ece",
+      "sourceBytes": 5895,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "486d480dfad90f92a5fe64963767d380aa8a04628968a67a27e7360939ebe430",
+      "releaseBytes": 5903
+    },
+    {
+      "path": "tests/test-driving-assistance.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-assistance.mjs",
+      "sourceSha256": "ae414d4efe42d55cc4a1c363b806a4c459cb239d97cbb8999e849872ccca32c3",
+      "sourceBytes": 4500,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "1013475216ce1e22caeb57e39b78f7b7fd1982baf1f36b331987c1094e8bd1b0",
+      "releaseBytes": 4490
+    },
+    {
+      "path": "tests/test-driving-usability.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-usability.mjs",
+      "sourceSha256": "432c05bf10ac8ba6843a25b686b27888ef13577c6c7d08cd5c86e3b514e130a6",
+      "sourceBytes": 3402,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "372c0ea1e9b3d455c3e3f8031d1632c458c3b8b5c5418896d6e0f3a9463426f6",
+      "releaseBytes": 3398
+    },
+    {
+      "path": "tests/test-driving-worker.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-worker.mjs",
+      "sourceSha256": "0db0f1a4c2134bf6aa512e1a0ce1f9cd36a09f86060ee451c7d500c99c9f541a",
+      "sourceBytes": 1130,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "7505e31671f83dede60191f518da8054922499b0aebf2992e8e9c331f5010e00",
+      "releaseBytes": 1134
+    },
+    {
+      "path": "tests/driving-test-driver.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/driving-test-driver.mjs",
+      "sourceSha256": "3c938543bc296268b3da016d422d7f534a77f0b79d3566d5571741c686e0c32d",
+      "sourceBytes": 265,
+      "changes": "",
+      "releaseSha256": "3c938543bc296268b3da016d422d7f534a77f0b79d3566d5571741c686e0c32d",
+      "releaseBytes": 265
+    },
+    {
+      "path": "simulation_v4/world.xml",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/dist/simulation_v4/world.xml",
+      "sourceSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "sourceBytes": 3469,
+      "changes": "",
+      "releaseSha256": "905df17507d76128f48906ac1be1508a67b8c55c936aa990592216c104a662e1",
+      "releaseBytes": 3469
+    },
+    {
+      "path": "simulation_v2/split_audit.py",
+      "source": "simulation_v2/split_audit.py",
+      "sourceSha256": "e8a3e9e8d7f0bed1d42d2029f719747914a70f8ba1a7e9ccc9d9c6f2aa34eaa0",
+      "sourceBytes": 5683,
+      "changes": "",
+      "releaseSha256": "e8a3e9e8d7f0bed1d42d2029f719747914a70f8ba1a7e9ccc9d9c6f2aa34eaa0",
+      "releaseBytes": 5683
+    },
+    {
+      "path": "simulation_v2/archive/launch-coupled-r5/split_audit.py",
+      "source": "simulation_v2/archive/launch-coupled-r5/split_audit.py",
+      "sourceSha256": "45cb14f91980a27f08404a7616fe1c34be458d04f3ed4937205d200d9a0b5883",
+      "sourceBytes": 5551,
+      "changes": "",
+      "releaseSha256": "45cb14f91980a27f08404a7616fe1c34be458d04f3ed4937205d200d9a0b5883",
+      "releaseBytes": 5551
+    },
+    {
+      "path": "simulation_v2/archive/attitude-only-blowdown-r4/split_audit.py",
+      "source": "simulation_v2/archive/attitude-only-blowdown-r4/split_audit.py",
+      "sourceSha256": "ab9ed719b1a9b391a15543f692489664408d407573584307f5ce113111d7f7e4",
+      "sourceBytes": 4256,
+      "changes": "",
+      "releaseSha256": "ab9ed719b1a9b391a15543f692489664408d407573584307f5ce113111d7f7e4",
+      "releaseBytes": 4256
+    },
+    {
+      "path": "simulation_v2/archive/energy-coupled-r6-short-run/split_audit.py",
+      "source": "simulation_v2/archive/energy-coupled-r6-short-run/split_audit.py",
+      "sourceSha256": "e8a3e9e8d7f0bed1d42d2029f719747914a70f8ba1a7e9ccc9d9c6f2aa34eaa0",
+      "sourceBytes": 5683,
+      "changes": "",
+      "releaseSha256": "e8a3e9e8d7f0bed1d42d2029f719747914a70f8ba1a7e9ccc9d9c6f2aa34eaa0",
+      "releaseBytes": 5683
+    },
+    {
+      "path": "tests/test-driving-jump-targets.mjs",
+      "source": "site@8446a5ce47998cbb475d8291d4f3af62a375f740/test-driving-jump-cars.mjs",
+      "sourceSha256": "f90ab36eb7cf99fecaaf139f79d51e1580281df58ce32cff75c186d4fdf6254e",
+      "sourceBytes": 3299,
+      "changes": "Modified in isolated export on 2026-10-22: standalone paths, neutral UI/obstacles, plain-material model lighting, local-path redaction, or test output paths. Frozen controller mathematics and native training code retained.",
+      "releaseSha256": "0d81175a5bed522f9dcb40d18b46e4756f0dce17a5366e530cadca93db22ece1",
+      "releaseBytes": 3319
+    }
+  ],
+  "thirdPartyDependencies": "Not uploaded; pinned npm releases and lockfile integrity, prepared by scripts/setup-vendor.mjs."
+}

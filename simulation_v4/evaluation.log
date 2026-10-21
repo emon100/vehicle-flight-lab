@@ -1,0 +1,13 @@
+evaluation 20 / 240
+evaluation 40 / 240
+evaluation 60 / 240
+evaluation 80 / 240
+evaluation 100 / 240
+evaluation 120 / 240
+evaluation 140 / 240
+evaluation 160 / 240
+evaluation 180 / 240
+evaluation 200 / 240
+evaluation 220 / 240
+evaluation 240 / 240
+[{"group": "inDomain", "turns": 0, "label": "7–14 m 留出 · 回正", "initial": {"successCount": 10, "trials": 20, "horizontalMedian": 0.18382353619428782, "horizontalP95": 0.2772374118850112, "maxHorizontalChange": 0.31945225535444793}, "reference": {"successCount": 8, "trials": 20, "horizontalMedian": 0.07662829531518073, "horizontalP95": 0.17681805168798526, "maxHorizontalChange": 0.1860051392999542}, "final": {"successCount": 13, "trials": 20, "horizontalMedian": 0.10608529705503872, "horizontalP95": 0.20510201162791405, "maxHorizontalChange": 0.21824399708585887}}, {"group": "inDomain", "turns": 1, "label": "7–14 m 留出 · 一圈", "initial": {"successCount": 1, "trials": 20, "horizontalMedian": 0.23916998312345006, "horizontalP95": 0.5667469684566521, "maxHorizontalChange": 0.5929493786389977}, "reference": {"successCount": 1, "trials": 20, "horizontalMedian": 0.1674209280463433, "horizontalP95": 0.24948823718137045, "maxHorizontalChange": 0.25184296832282027}, "final": {"successCount": 1, "trials": 20, "horizontalMedian": 0.18945314878109482, "horizontalP95": 0.3056671943093574, "maxHorizontalChange": 0.4014680566286376}}, {"group": "stress", "turns": 0, "label": "1–18 m 宽范围 · 回正", "initial": {"successCount": 3, "trials": 20, "horizontalMedian": 0.14556866763236107, "horizontalP95": 0.36938315445297676, "maxHorizontalChange": 0.3801693641100336}, "reference": {"successCount": 4, "trials": 20, "horizontalMedian": 0.10668987429391791, "horizontalP95": 0.1826063056337322, "maxHorizontalChange": 0.21039752408153808}, "final": {"successCount": 5, "trials": 20, "horizontalMedian": 0.1258634930550597, "horizontalP95": 0.26699796077917437, "maxHorizontalChange": 0.31112082841713334}}, {"group": "stress", "turns": 1, "label": "1–18 m 宽范围 · 一圈", "initial": {"successCount": 0, "trials": 20, "horizontalMedian": 0.2532701948726514, "horizontalP95": 0.45429544759593327, "maxHorizontalChange": 0.4575939060535949}, "reference": {"successCount": 0, "trials": 20, "horizontalMedian": 0.15614377070755156, "horizontalP95": 0.3319594108969774, "maxHorizontalChange": 0.3757046954114059}, "final": {"successCount": 0, "trials": 20, "horizontalMedian": 0.17915591356630378, "horizontalP95": 0.3464385736469584, "maxHorizontalChange": 0.5598941960001801}}]

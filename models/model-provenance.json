@@ -1,0 +1,91 @@
+{
+  "exportDate": "2026-10-22",
+  "declaredLicense": "CC-BY-4.0",
+  "licenseDeclaredBy": "project owner",
+  "generationAccountAndInputRightsIndependentlyVerified": false,
+  "sourceSha256": "eeee55c0eaf28aaa26de4143e21b90de6e2ee20a703737b93373757c961cc443",
+  "outputSha256": "9d7d240725283c5e3624f9adb5a464232105bc42ada13352f28b76654128a336",
+  "sourceBytes": 8975944,
+  "outputBytes": 4894352,
+  "images": 0,
+  "textures": 0,
+  "textureCoordinates": false,
+  "vertexColors": false,
+  "materials": "GLB uses plain paint and wheel materials. Sandbox glass, trim and lamps use procedural fragment shading; no images or sampled pixel colors.",
+  "appearanceRisk": "Current recognizable body retained at owner request; no third-party design or trademark permission is asserted.",
+  "geometryAttributeChecks": [
+    {
+      "mesh": 0,
+      "primitive": 0,
+      "attribute": "POSITION",
+      "sourceSha256": "5da1c45b05ac018fd213fc0e25c8dbea115f896648848093b5becc2e805addc2"
+    },
+    {
+      "mesh": 0,
+      "primitive": 0,
+      "attribute": "NORMAL",
+      "sourceSha256": "82f4f9f288f53c80f81d560527c175a954ae10739318a57dae50640bc65f5cef"
+    },
+    {
+      "mesh": 1,
+      "primitive": 0,
+      "attribute": "POSITION",
+      "sourceSha256": "ba8a9e5497b5500978755c68cfb73d6d736b00fe7fdb5e6548bec918fa2c3236"
+    },
+    {
+      "mesh": 1,
+      "primitive": 0,
+      "attribute": "NORMAL",
+      "sourceSha256": "13b7d898ec40395de5c332afbe99485abcafb4402135cf6536aff98305a77de4"
+    },
+    {
+      "mesh": 1,
+      "primitive": 1,
+      "attribute": "POSITION",
+      "sourceSha256": "86ca4bd9230e71364e8fca6d1e4b0002a739cae800ef9bd4bf8ac032fbaa49dd"
+    },
+    {
+      "mesh": 1,
+      "primitive": 1,
+      "attribute": "NORMAL",
+      "sourceSha256": "440cdcad038a0573e97a318f687ad7cdc83490bdb02491a5eace9f6dc88ec759"
+    },
+    {
+      "mesh": 1,
+      "primitive": 2,
+      "attribute": "POSITION",
+      "sourceSha256": "2badad94ed2aaf28f7c37dec3c61cff44c85abd4d87122c0a2b43ebe0b9b044b"
+    },
+    {
+      "mesh": 1,
+      "primitive": 2,
+      "attribute": "NORMAL",
+      "sourceSha256": "383b55d2a8a43ba21b2166f7d7e5402e1e73c396311894ef932723ac63531866"
+    },
+    {
+      "mesh": 1,
+      "primitive": 3,
+      "attribute": "POSITION",
+      "sourceSha256": "90f6e36c4d1c725c8374c566cac14fc1e3bfa71cf3282fb44a21cf32a2c8a120"
+    },
+    {
+      "mesh": 1,
+      "primitive": 3,
+      "attribute": "NORMAL",
+      "sourceSha256": "af85f09e57c705db2f5e1cab6ae60d4ff68ffa111126f1eab7f3414b0f5cfb98"
+    },
+    {
+      "mesh": 1,
+      "primitive": 4,
+      "attribute": "POSITION",
+      "sourceSha256": "17da44037900006e401e29ef5328eef25612f3487ef75ef928a2823199dc59b4"
+    },
+    {
+      "mesh": 1,
+      "primitive": 4,
+      "attribute": "NORMAL",
+      "sourceSha256": "250b9d774e740d77c3654fa91dd35fc9ba0dba9419aca79abe68743c26d7ed41"
+    }
+  ],
+  "triangleCountsRetained": true
+}

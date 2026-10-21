@@ -1,0 +1,15 @@
+{
+  "reason": "User expanded training to 100 generations and requested complete candidate/case records. Original short campaign interrupted without modifying core/controller/world.",
+  "completedGenerations": 10,
+  "committedEvaluations": 1821,
+  "uncommittedGeneration": 11,
+  "uncommittedEvaluationsRange": [
+    0,
+    168
+  ],
+  "totalActualEvaluationsRange": [
+    1821,
+    1989
+  ],
+  "countNotice": "The interrupted population evaluation had no per-episode ledger. Its exact completed count cannot be recovered; do not present the committed count as the exact total. No candidate outcomes were fabricated."
+}

@@ -1,0 +1,215 @@
+{
+  "notice": "Changes apply only to the public export; source workspace was not edited. See file diffs in this export and model provenance for details.",
+  "files": [
+    {
+      "path": "simulation/training.log",
+      "sourceSha256": "5e96785cbf931519dd3ec8cf102ab41a3df97f64f3de85b9d43ac5015d0ef668",
+      "releaseSha256": "a4bbb9f7928b09b4cdc9d7d710f94052d0c5444c048e11546e49e93b986bb082",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation/training-domain-first-pass.log",
+      "sourceSha256": "e4c751037dbbe8846a539a04ab39733f6610f48fdff80923c18b959e6a8322f7",
+      "releaseSha256": "ff1c127db5fb2a24acf9f5b73467bb697e7d66badbc996ca519887831cc48824",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation/training-envelope-validation.log",
+      "sourceSha256": "0b510a53767308b9167b24765dd7fa0cf1843e68a7a02e62abc75130f147ffdc",
+      "releaseSha256": "1fcc0be0083aecaef3bb8f1c93a33971eb2bc1f5a7dffef68d45ef48d6965165",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation/training-contact-validation.log",
+      "sourceSha256": "c8de0daf81f591b939fc61f509d57ab3544e96c140c8ba5b3df005587f8825b4",
+      "releaseSha256": "a4e38a3345c445c59519151ba008f7290aeeff932fdd4fcf90997137d7a67fec",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation_v2/training.log",
+      "sourceSha256": "e9ac0e2001c7b9913b3433f9c5942bb82a57d4349df78d955b36d33d8a4f2997",
+      "releaseSha256": "4f8c4218f7eb15c8649cee2bc808a48496a63b09de093a0fe7386cf661ed9a88",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation_v3/evaluate.py",
+      "sourceSha256": "2c1a1a51592afcbe6391367a99e19e9345223070d0d5f5be15169c6cee08ad91",
+      "releaseSha256": "55305f9beab27d5224ab7546a01f50c982d02484dd0d95d57a8ae642470ae514",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation_v4/evaluate.py",
+      "sourceSha256": "86036e093df59eaf72452e7adc14b52fba1c582614d411b4742d0cc4fdeb7401",
+      "releaseSha256": "8938864371ff7afedb90ef5fc11c2fb1c88e372c44e732dae5b4591c5e8fc25b",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/index.html",
+      "sourceSha256": "8a80acfbb20c5580c04ddd6542266e5a9ebb2066e146e3d3ba8210250d505396",
+      "releaseSha256": "6176343c4c6368986077abf46b5b5d772a4332b7d4e450833b22e4f9f668ad14",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving.mjs",
+      "sourceSha256": "e3f3c345c1e9b83f33f09059ed0a3d7e190900d2e1fe654e83c8c44aba9ebb20",
+      "releaseSha256": "b48225d9d1e891773338bfb99e6fa25f8423da11bf29df03d84dce2dbb1e0c79",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-audio.mjs",
+      "sourceSha256": "56ef7020ad2f88479b3aa064bd05bcd047350638967befbf8185f01000e0b36d",
+      "releaseSha256": "c9c7e33e1ecf53690a8479fc0cbb156a7662e0498f3da575d3e959ef7f45f933",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-model.mjs",
+      "sourceSha256": "ecc7b367fcc18fc1165603bf534d8ce734e93c985bb4d61726be6742a5d00ccb",
+      "releaseSha256": "7d6dffe7e93c46adf70467df2a8d0876ba53ac4c60cf7a5c34851df717a9c6a3",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-core.mjs",
+      "sourceSha256": "792fc314e9e78538d73c47ca9b6441e8a8dab947bc2baea0509a36d50e5a538d",
+      "releaseSha256": "aeb443f2dc15df875f7755d0bed7c48a729de73e44c00904d2a0c2bb3297947c",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-powertrain.mjs",
+      "sourceSha256": "62098b1216f6115b5ad43bf4c649730217a53136086f477be0d78bae97783d10",
+      "releaseSha256": "a91c8b42245da6d08a9c8012a0d26fe0b6b4b7e6c692eae6540b2b3cde9d976d",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-terrain.mjs",
+      "sourceSha256": "ab60ae82766803fa5305704f88364abfa7ca78d4c88cd9887b357f973a7248c9",
+      "releaseSha256": "d7d9af7991da28b8997cc5e6bbcd741bac1837da92ddc3fc8267aff393652286",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-obstacles.mjs",
+      "sourceSha256": "fb283b59fc108a797e525397674aa8848d95d11b3e755b16527c36009b091c2d",
+      "releaseSha256": "b93cda97ecd2ddc53f7447ce1324b9754be184c1a4664a19f44666d8c6ec19e3",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-worker.mjs",
+      "sourceSha256": "cc3e7a772b2b9d5018eb453484c062458dcab648f54beccc0435ff643bd6911c",
+      "releaseSha256": "706f913c2d7b9887276d02acf3e036a58141b23e60dcbcb8a3d5d22d119bdab5",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/driving-effects.mjs",
+      "sourceSha256": "03e3998afba0cfdd70a2767d87dcc8c93d464e19fa04ae91967c1833481f3b04",
+      "releaseSha256": "5997e2d2b5d333291637390db86366b648222a8d475703f750ec8bdce4a99f18",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/parked-vehicles.mjs",
+      "sourceSha256": "c7143081f955fc664cffd35107d85e53ff36830853d3d6b7976ada87fc1d917d",
+      "releaseSha256": "624534ff0eb6e6bff6829a3d33b27b8c5f5dc2df251f8e943f484204af9ad608",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/lab-world.mjs",
+      "sourceSha256": "7aebba617f5d5886f50edfdce85b4d839a35384bf22de4ef47b027b756525a7a",
+      "releaseSha256": "a6f387254a84f6bb50733d9e8974aa3be895f909f6aa5aa712dfc18f4aa428f7",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/jet-smoke.mjs",
+      "sourceSha256": "2dc37377b8ab94b27abb20919c9c9ceb528caee5b537fa63c6841b2b71123357",
+      "releaseSha256": "3b34adfae7ed608092f2a371a404e0b3e5ebce92212b11cb2e39e4981cd692bb",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/state-guides.mjs",
+      "sourceSha256": "2fecd595f206617d3db2ff4e38c515ec5fe741165a7aa1aa89082d1d66f167e0",
+      "releaseSha256": "4ae79496ffbe1040d42e1cb7506255b48d0258e3d9bfc0a2563e2e569bf0f634",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/night-range.mjs",
+      "sourceSha256": "489d707e514cdd67bcb55b30aa8b8fa472dc8340672f1753888682cb18d4d676",
+      "releaseSha256": "43776df9979d91275c7761e4729e5612d808175e0edda695bc08db4ace48cfb4",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "sandbox/vehicle-model.mjs",
+      "sourceSha256": "cc3462fa0b78fd943b95ae1f27ee1e60030bed4fdbd4f21f0e619f910470707c",
+      "releaseSha256": "974fcfd8ade88533b6cfe1fd00002b305bbbcd55d33d20b96586bcd3c7b78627",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation_v2/browser-runtime.mjs",
+      "sourceSha256": "552142cab13027b360f66022257e454bb0441afd2f6ebb8a1d995135ce16723e",
+      "releaseSha256": "18dc618e80ac6d99d46b0a2f6e150409205410fb6b07024da16f1584bd83a23a",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation_v3/browser-runtime.mjs",
+      "sourceSha256": "2a0d2618bed54626d9787190f040ca7b3c8118a66c07b4738cc48be613bfe450",
+      "releaseSha256": "df3c48c4ab6919c599b8d214a2064bc006a3f5c026df35819d35da15d2b5e7ce",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation_v3/test-controller.mjs",
+      "sourceSha256": "e2a9e33a9ab57b6b16e1b1c378745f6980301668c5bd32cb4a85a2a3de3f1a1d",
+      "releaseSha256": "9a877841c99f54c8466c7931c181eca81e45a4dd335162bd9de4182ec54a91c9",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "simulation_v3/test-predictor.mjs",
+      "sourceSha256": "01eddafb0b9b976df4d1a83f656057694b5818b01d40a47c652733e3294ffbf9",
+      "releaseSha256": "573f52f69dd3aa6c8fb5e7dc778d4c6072eddb4d2ced5040b3e376f6beebe462",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-input.mjs",
+      "sourceSha256": "13e305628d3db5cbf38b7798a303e5f869b9793a48f3da65a6979c3e2af3fac6",
+      "releaseSha256": "dad78d6bea9cc62ae3857fb26ac5111185a2f43328601ae43aaacca0137147da",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-controls.mjs",
+      "sourceSha256": "5683448c73c876ea53f35169154cdaf4f50edb9bfa51cf502104e7b4c0ad7a05",
+      "releaseSha256": "0f0d14afbfa5f5698e938842c8130ec1d6d5b58ab4a417b75232d91562ac75f7",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-dynamics.mjs",
+      "sourceSha256": "945f17683208af4f03c890d246006ebb7d9e1cfbb0437b5f21b54dacf3d2baba",
+      "releaseSha256": "f1d42d030bc5b03134dcd9b1ebe731411dcd8467bc7d15cf9e93a0c31a3a3e83",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-follow.mjs",
+      "sourceSha256": "c24c992fdcca6cb415adaabd1a5cb9e1c89bfc0ac0cd9ae25ac2c86d75895ece",
+      "releaseSha256": "486d480dfad90f92a5fe64963767d380aa8a04628968a67a27e7360939ebe430",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-assistance.mjs",
+      "sourceSha256": "ae414d4efe42d55cc4a1c363b806a4c459cb239d97cbb8999e849872ccca32c3",
+      "releaseSha256": "1013475216ce1e22caeb57e39b78f7b7fd1982baf1f36b331987c1094e8bd1b0",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-usability.mjs",
+      "sourceSha256": "432c05bf10ac8ba6843a25b686b27888ef13577c6c7d08cd5c86e3b514e130a6",
+      "releaseSha256": "372c0ea1e9b3d455c3e3f8031d1632c458c3b8b5c5418896d6e0f3a9463426f6",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-worker.mjs",
+      "sourceSha256": "0db0f1a4c2134bf6aa512e1a0ce1f9cd36a09f86060ee451c7d500c99c9f541a",
+      "releaseSha256": "7505e31671f83dede60191f518da8054922499b0aebf2992e8e9c331f5010e00",
+      "date": "2026-10-22"
+    },
+    {
+      "path": "tests/test-driving-jump-targets.mjs",
+      "sourceSha256": "f90ab36eb7cf99fecaaf139f79d51e1580281df58ce32cff75c186d4fdf6254e",
+      "releaseSha256": "0d81175a5bed522f9dcb40d18b46e4756f0dce17a5366e530cadca93db22ece1",
+      "date": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "vehicle-flight-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "setup": "node scripts/setup-vendor.mjs",
+    "test": "node tests/test-release.mjs && node tests/test-driving-worker.mjs && node tests/test-driving-input.mjs && node tests/test-driving-controls.mjs && node tests/test-driving-follow.mjs && node simulation_v4/test-browser.mjs"
+  },
+  "dependencies": {
+    "@mujoco/mujoco": "3.15.0",
+    "three": "0.180.0"
+  },
+  "engines": {"node": ">=20"}
+}

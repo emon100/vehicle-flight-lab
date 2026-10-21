@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-22",
+  "status": "passed",
+  "nativeTests": {
+    "v2": 25,
+    "v3": 7,
+    "v4": 5,
+    "environment": "Existing pinned Python 3.12 environment; no clean Python dependency installation repeated"
+  },
+  "trainingAudit": {
+    "completeCampaign": true,
+    "campaignId": "energy-coupled-r6-100-generations",
+    "generations": 100,
+    "candidatePolicies": 2800,
+    "candidateEpisodes": 16800,
+    "developmentEpisodes": 1212,
+    "totalEpisodeLedgerEntries": 19039,
+    "checkpointShards": 20,
+    "actualCheckpointReplays": 60,
+    "deterministicCandidatesMatchSeedAndSearchState": true,
+    "candidateResultsMatchEpisodeLedger": true,
+    "selectedParametersUseOnlyFixedDevelopmentScores": true,
+    "sourceFingerprintsMatch": true,
+    "repeatedShortCampaignPrefix": {
+      "generationsCompared": 10,
+      "candidateScoreVectorsMatchExactly": true
+    },
+    "priorInterruptedCampaign": {
+      "reason": "User expanded training to 100 generations and requested complete candidate/case records. Original short campaign interrupted without modifying core/controller/world.",
+      "completedGenerations": 10,
+      "committedEvaluations": 1821,
+      "uncommittedGeneration": 11,
+      "uncommittedEvaluationsRange": [
+        0,
+        168
+      ],
+      "totalActualEvaluationsRange": [
+        1821,
+        1989
+      ],
+      "countNotice": "The interrupted population evaluation had no per-episode ledger. Its exact completed count cannot be recovered; do not present the committed count as the exact total. No candidate outcomes were fabricated.",
+      "archive": "archive/energy-coupled-r6-short-run"
+    }
+  },
+  "v4Training": {
+    "generations": 60,
+    "candidatesPerGeneration": 18,
+    "episodesPerCandidate": 6,
+    "recordedEvaluations": 6648,
+    "controllerAndTrainerHashes": "match"
+  },
+  "browserParity": {
+    "status": "passed",
+    "checks": [
+      {
+        "id": "2026111801-0/initial",
+        "status": "success",
+        "success": true,
+        "windows": 203
+      },
+      {
+        "id": "2026111801-0/reference",
+        "status": "success",
+        "success": true,
+        "windows": 211
+      },
+      {
+        "id": "2026111801-0/final",
+        "status": "success",
+        "success": true,
+        "windows": 197
+      },
+      {
+        "id": "2026111801-1/initial",
+        "status": "hard_contact",
+        "success": false,
+        "windows": 211
+      },
+      {
+        "id": "2026111801-1/reference",
+        "status": "hard_contact",
+        "success": false,
+        "windows": 210
+      },
+      {
+        "id": "2026111801-1/final",
+        "status": "hard_contact",
+        "success": false,
+        "windows": 217
+      },
+      {
+        "id": "2026111801-2/initial",
+        "status": "success",
+        "success": true,
+        "windows": 230
+      },
+      {
+        "id": "2026111801-2/reference",
+        "status": "success",
+        "success": true,
+        "windows": 208
+      },
+      {
+        "id": "2026111801-2/final",
+        "status": "success",
+        "success": true,
+        "windows": 204
+      },
+      {
+        "id": "2026111801-3/initial",
+        "status": "hard_contact",
+        "success": false,
+        "windows": 190
+      },
+      {
+        "id": "2026111801-3/reference",
+        "status": "hard_contact",
+        "success": false,
+        "windows": 239
+      },
+      {
+        "id": "2026111801-3/final",
+        "status": "hard_contact",
+        "success": false,
+        "windows": 163
+      }
+    ],
+    "maxDifferences": {
+      "force": 1.0186340659856796e-10,
+      "torque": 7.314611139008775e-10,
+      "pathRemaining": 1.7763568394002505e-15,
+      "spinMeasured": 1.7763568394002505e-15,
+      "trajectory.pos": 3.3717473257866004e-13,
+      "trajectory.quat": 4.185616061714204e-14,
+      "trajectory.vel": 9.973244452510244e-12,
+      "trajectory.omega": 2.856874025541911e-12,
+      "trajectory.fuel": 4.234834705130197e-12
+    },
+    "issues": []
+  },
+  "sandboxChecks": [
+    "input lifecycle",
+    "physics failure and reset",
+    "tire mesh",
+    "road suction",
+    "landing and driving controls",
+    "camera tracking",
+    "independent simulation",
+    "unbranded block target collision",
+    "80 and 100 km/h flip clearance and landing",
+    "visible texture-free model, headlights and puddle reflections",
+    "license and attribution links"
+  ],
+  "modelChecks": {
+    "geometryAttributesRetained": 12,
+    "imageCount": 0,
+    "textureCount": 0,
+    "uvAttributes": 0,
+    "sizeBytes": 4894352,
+    "sandboxFinish": "Procedural fragment shading; glass and trim inspected visually, no image textures",
+    "browserShaderErrors": 0
+  },
+  "notRepeated": [
+    "full CEM training",
+    "full historical held-out evaluation",
+    "new clean Python installation",
+    "legal rights search or clearance"
+  ],
+  "thirdPartyRights": "Model silhouette retained at owner request; no Tesla authorization or zero-risk claim."
+}

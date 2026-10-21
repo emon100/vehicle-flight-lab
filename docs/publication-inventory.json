@@ -1,0 +1,58 @@
+{
+  "files": 253,
+  "totalBytes": 53340011,
+  "categories": {
+    "root": {
+      "files": 7,
+      "bytes": 46459
+    },
+    "LICENSES": {
+      "files": 2,
+      "bytes": 28381
+    },
+    "docs": {
+      "files": 8,
+      "bytes": 128991
+    },
+    "examples": {
+      "files": 1,
+      "bytes": 139
+    },
+    "models": {
+      "files": 3,
+      "bytes": 4898953
+    },
+    "sandbox": {
+      "files": 24,
+      "bytes": 125808
+    },
+    "scripts": {
+      "files": 3,
+      "bytes": 9150
+    },
+    "simulation": {
+      "files": 14,
+      "bytes": 2735317
+    },
+    "simulation_v2": {
+      "files": 79,
+      "bytes": 30898488
+    },
+    "simulation_v3": {
+      "files": 41,
+      "bytes": 4157230
+    },
+    "simulation_v4": {
+      "files": 61,
+      "bytes": 10272493
+    },
+    "tests": {
+      "files": 10,
+      "bytes": 38602
+    }
+  },
+  "maximumFileBytes": 4894352,
+  "secretPatternMatches": 0,
+  "personalPathsOrPrivateEmails": 0,
+  "excludedAssetOrRuntimeFiles": 0
+}
